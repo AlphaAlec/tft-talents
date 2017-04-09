@@ -1,0 +1,2298 @@
+[
+	{
+		"name": "All Weapons",
+		"iq": "7",
+		"memory": "5",
+		"corequisite": "Axe/Mace, Bow, Crossbow, Knife, Pole Weapons, Shield, Sling, Sword (prerequisite)",
+		"description": "You know how to use all basic weapons. (Note that since this is a prerequisite, it includes the price of the talents below, resulting in a savings of memory when you succeed in learning this talent. The saved memory can then be used elsewhere.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ax/Mace 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to use all axes, hammers, maces, morningstars & picks.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Bow 1",
+		"iq": "7",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "The ability to use all missile weapons except guns, slings, and crossbows. This talent is very hard to learn. It takes 4 times the normal amount of time to learn (it takes 2 years to learn).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Crossbow 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "The ability to use all crossbows.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Knife 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to use all types of knives. Note that anyone can use a knife in HTH (with DX penalties for the large dirks and poinards). However this talent is needed if you want to attack with a knife into adjacent hexes or throw knives with out the -4 DX adjustment.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Pole Weapons 1",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Ability to fight with all pole weapons except the naginata.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Shield 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "The ability to use a shield.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sling 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "The ability to use all slings.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sword 1",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "Knife 1",
+		"description": "Ability to use all swords.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Keay",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This is a battle scream used to try to distract opponents. All enemies (and friends too if they are not expecting it) must make a 3vsIQ or be at -3 DX for 2 turns. This can only be used at a start of a battle.  Figures with Tactics, UC3 or 45+ attributes are immune.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Dive Block 1",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "When someone tries to engage you in HTH by diving at your legs, you add one to the 1 die roll to see if they get into HTH. (Remember you already have a +1 modifier to this roll.)",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Deep Drum",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Usable only by Mermen or other under sea races.  You are skilled in the use of the deep drums to communicate with a special code over great distances (1000 km+) underwater. The language of the deep drums is a secret normally passed down within families. Normal people can not even hear the drums at distance so a mystical element to the talent is suspected by the uninitiated.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Green Walking",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "5 years of living and moving in the wilds",
+		"description": "Long experience in the wilderness allows you to move thru the woods 2 km a day faster than someone with out this talent (you may move 5 km / day more than normal if your IQ is 10+). If you are the person choosing the trail you may guide up to five other people with out this talent at your rate of speed. <br /><br />You know of common plants that can be harvested and eaten in the woods while walking by them. This will not feed you, but will stretch your rations by about 10%.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Running",
+		"iq": "7",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "Long hours of track training, give your figure +2 MA. This talent will also greatly increase your endurance in long distance running.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Snow Shoe",
+		"iq": "7",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "You can walk on snow with snow shoes as if it was solid ground. This includes the ability to make and repair snowshoes. You are at -2 MA while in snowshoes (or -6 MA if you do not have this talent).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Warrior",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "Strength 14+",
+		"description": "This talent represents the toughness gained from years of combat experience. You know how to take blows by moving with them (and not taking them in vital areas if possible). Its effect is to subtract one hit from every attack against you. <br /><br />This talent does not work when you are unaware of the attack, or against poisons, or against any damage you could not 'move with'.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Languages",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Most languages are IQ7 talents that cost 1 memory point. Some ver complex languages have a higher IQ requirement and/or cost more to learn. However, if you already know a closely related language, the cost is one half. Also, as you gain more IQ, normally your vocabulary and expressiveness in all languages increase.",
+		"auto": "true",
+		"wizard": "regular"
+	},
+	{
+		"name": "Boomerang 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "See AM pg 7. This weapon uses Thrown Weapons talent not Missile Weapons talent to improve the DX of the user.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Blow Gun 1",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "See AM pg 9.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Cestus 1",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "See AM pg 8.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Guns 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Ability to use and maintain known types of gunpowder weapons such as the arquebus and blunderbuss. (Anyone can light a petard or a grenade).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Lasso 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "See AM pg 8.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Naginata 1",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "Pole Weapons 1",
+		"description": "See AM pg 7.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Net and Trident 1",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "See AM pg 7 to 8.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Nunchuks 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "See AM pg 9.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Quarterstaff 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "See AM pg 8.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sha-Ken 1",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "Thrown Weapons",
+		"description": "See AM pg 8.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Spear Thrower",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "Pole Weapons 1",
+		"description": "See AM pg 9.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Whip",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "See AM pg 8 to 9.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Boating",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to handle a small boat, canoe, raft, or sail boat skillfully. In any situation in which the boat may tip over or swamp this talent helps. Even one boater allows the roll ( vs the average of the crews adjDX ) to be one less die and each extra boater gives a +1 on the roll. Non-boaters are at -3 DX while in a boat.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Contortionist",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "A contortionist can't be kept tied up. If those that are doing the tying don't know that you are a contortionist then you can free yourself in under a minute. If they know you are a contortionist and do a careful job of tying you, it will take at least 5 times as long to free yourself. No matter how well you are tied up, you may try at least once for an auto success.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Farming",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Basic knowledge of farming, crops, weeds, etc.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Flying",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "The ability to fly",
+		"description": "Increases flying MA by +2.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Horsemanship",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "The ability to ride horses and other riding beasts You are familiar with the strengths and weakness of the beasts you are used to and can properly care for them. In combat you are only at -1 DX while on horse back (every one else is at -3 DX or more and must roll 3vsDX each turn of active maneuvers or fall). A fall from a horse causes 1d-2 damage.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Lipreader",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "The ability to read lips.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Literacy",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Ability to read and write in all languages that you can speak. An illiterate figure can't read or draw any but the simplest maps, and an illiterate wizard can't use scrolls or magic books. This talent costs 1 for both wizards and heroes.",
+		"auto": "true",
+		"wizard": "single"
+	}, 
+	{
+		"name": "Seamanship",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Ability to act as an ordinary seaman on any large ship. A figure without this talent is at -2 DX ( except to cast a non-missile spell ) while on shipboard."
+		,
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sex Appeal",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Experience in charming the opposite sex. Gives you a saving roll of 3vs ST or IQ (which ever is higher ) against being slain by members of the opposite sex and a similar race. This talent may be used in negotiations with the opposite sex or at other times the GM deems appropriate generally giving a +1 reaction.",
+		"auto": "true",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Swimming",
+		"iq": "8",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "General swimming ability. Any rolls vs taking drowning damage are rolled on one less die. Swimmers may go an extra minute without air with out being affected.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Thrown Weapons",
+		"iq": "8",
+		"memory": "2",
+		"corequisite": "Speed 12+",
+		"description": "Ability to throw things hard and accurately. This talent allows you a +2 DX when throwing something. You may ready and throw a weapon in the same turn. This also gives you +2 DX with thrown spells.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Torturer",
+		"iq": "8",
+		"memory": "1",
+		"corequisite": "Speed 12+",
+		"description": "The ability to question helpless victims for information with out killing them or accidently doing permanent harm. See Questioning Table.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ax/Mace 2",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Ax/Mace 1, Strength 12+, adjusted Dexterity 10+",
+		"description": "This allows you to use the following advantages: <br />(1) Morningstars do +1 damage and may ignore shield's defences unless the shield user makes a 5vsDX. (They swing around the shield.) <br />(2) Hammers and Maces do +1 damage and a minimum of one point of damage after armor, providing at least 5 points of damage is rolled (SOME crushing damage gets thru, even magic armor) <br />(3) Ax's and Picks do +2 damage.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Bow 2",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Bow 1",
+		"description": "All bows (that you are strong enough to use normally) may be strung in 1 turn instead of 3 turns. On critical hits, add 2 to the roll to find the hit location. <br /><br />If your adjusted speed is double the speed needed to fire your bow twice per turn, you may fire the bow 3 times per turn. If you are firing your weapon 3 times per turn, the first shot is taken after all movement at the same part of the turn as when charging pole weapons attack.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Crossbow 2",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Crossbow 1",
+		"description": "On critical hits, add 2 to the roll to find the hit location.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Knife 2",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "Knife 1, Thrown Weapons",
+		"description": "May strike or throw daggers and single sha-ken as tho you had fencing, i.e. on a hit of a 3-4 you do triple damage, on a 5-7 you do double damage. You have a +2 DX when blocking with Main Gauches.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Pole Weapons 2",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Pole Weapons 1",
+		"description": "This talent allows you to be part of spear walls and other formations of pikes. The two weapons generally used are 4-6 m spears and pikes. Other pole weapons may be used but heavy weapons will tire the troops more quickly, and shorter weapons will not allow as many ranks of spear men to attack. <br /><br /A person with this talent may ignore friendly troops in front of him when doing a jab attack (thus the spears may pass thru occupied hexes). A fighter in the second row or further back from the front of such a formation must have his spear facing in the same direction as those people around him and can not change his facing or the direction of the spear with out the following procedure being followed. First he must raise the spear to vertical, and change his facing (one turn). Then he lowers his spear (second turn). If he wishes to attack on the turn the spear is lowered the is at -4 DX. Note that the longer spears still do normal damage. <br /><br />While in formation the -4 DX for having a person in your rear hex may be ignored. The -6 DX for having a wall behind you still applies but if the spear is entirely choked out this would not apply.   Lastly pole weapons that are jabbing at 3, 4 & 5 hexes range do -1, -2, and -3 pts of damage respectively. Jabbing spears may not charge attack (and thus do *2 damage) unless the enemy virtually throws themselves onto the spear wall after having closed the distance by at least 5 hexes that turn.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Shield 2",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "Shield 1, Strength 4 over the minimum Strength of your shield",
+		"description": "Your ready shield will now stop -2 extra hits. If your shield is spiked it will do +2 damage. When you are shield rushing with this talent you have +3 ST for calculating who is stronger. Note: if someone with Ax / Mace 2 and a morningstar hits you, the morningstar still ignores your shield's protection unless you can make the 5vsDX roll. ",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sling 2",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Sling 1, Dexterity 12+",
+		"description": "Slings do +2 damage. On the roll to generate the location of a critical hit, add 2 to the roll.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sword 2",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "Sword 1, Dexterity 12+",
+		"description": "Swords do +2 damage. On a roll to generate the location of a critical hit, add 2 to the roll.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Acolyte",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This is the basic training needed to become a priest. You will know the basic tenets of your religion. Those who are very pious, will give you a +1 reaction. If your GM is giving special abilities to priests, an acolyte may try to use them, but most of the time this will not work, (GM should only allow it to work in the most dramatic of time, and often not even then).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Acute Hearing",
+		"iq": "9",
+		"memory": "2+",
+		"corequisite": "None",
+		"description": "This is the talent the blind develop - being able to sense walls, obstructions, and living beings by sound and pressure waves. A figure with acute hearing can <br />(1) hear approaching beings before they hear him; <br />(2) travel in the dark at only half his normal speed, tho with no chance of noticing hidden doors, traps, etc.; <br />(3) detect invisible or hidden creatures within 3 Mh on a 4vsIQ; <br />(4) fight in the dark at -4 DX instead of -8 DX. <br />(5) roll 1 less die to notice something with your hearing.  The above abilities require that the figure and his party remain very quiet. A person with this ability can not be taken by surprise from behind, a sixth sense will warn him. </br><br />Blinded characters may take this at 1 memory point after 3 years of blindness, races that live in the dark with poor eye sight (e.g. Kobolds) may also take it for 1 point.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Alertness",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent of being keen-eyed, watchful and alert. You will roll one less die when given a chance to notice something. You always gets a roll to try to notice something when walking into an ambush. Additionally, you get a one point bonus when attempting a waking roll.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Animal Handler",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "The ability to make friends with (and in time, train) all normal animals. To train wild animals typically requires that you gain its trust somehow. This talent works best on mammals and other creatures that have bonding values and stable societies. The GM will run the animals for it generally will put its own interests ahead of yours in a pinch. This ability allows you to train animals.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Bard",
+		"iq": "9",
+		"memory": "1+",
+		"corequisite": "None",
+		"description": "Musical training. Basically a +2 reaction when you are playing your instrument or singing.  See ItL pg. 12 for extra advantages. For the 1 memory point you may play 2 instruments, for each additional memory point you may learn 4 more instruments. A good singing voice counts as an instrument.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Battle Language",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This is a specialized language for commanding people in battle, planning battles and for commando raids. (With a few additional words it is used by thieves as well.) It is no use outside of these areas. It is clear & concise and designed to prevent confusion of orders. As well as the spoken version of the language, there are these three variations: Hand signs (used when you wish to be completely silent),  Drums & Horns (useful for large battles at night) and Flags and Banners (useful for large battles where a single voice can not be heard).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Charisma",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent gives you an automatic +1 reaction with all people. It also gives you a chance to make friends with someone. If you have treated the NPC with courteously and respect you may roll 3vsIQ normally, 4vsIQ if the relationship was strained or hostile, and 5vsIQ if it is attempted on or by a prisoner. A successful roll means that the reaction roll is made with results of 13+ being treated as a 12 (neutral reaction). If the roll results in a 13 or more you may try to make that NPC into a follower ( see below ). See also Personal Magnetism (at IQ 19 ). (Note reactions rolls are now 3d6.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Chemic Initiate",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Simple chemical process are learned including mixing, powdering, heating, weighing, distillation, fermentation, and fractionations. Some simple process are taught.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Climbing",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Rock climbing or mountain climbing experience. A character with this talent rolls one less die on all climbing rolls. You can climb 20% faster than normal people at no extra risk. You understand and can use all climbing gear.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Deep Concentration",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This talent is only of use to wizards.  It reduces the penalties for maintaining spells that require continuing concentration. The wizard with this talent is never at IQ penalties because of maintaining spells requiring concentration. (So if a wizard was maintaining 3 spells (including running Illusions, images, etc.) he would normally be -3 on IQ saving throws. With this talent there is no penalty.)",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Detect Traps",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "A figure with this advantage rolls 2 fewer dice when looking for any trap, or one less die if you are not looking for traps, and 1 fewer die when saving vs a trap that has gone off. This talent does add its advantage for detecting traps with Alertness.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Dive Block 2",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Dive Block 1, Dexterity 13+",
+		"description": "When someone tries to engage you in HTH by diving at your legs, you add two to the 1 die roll to see if they get into HTH. (You add a total of four including the bonus from Dive Block & the bonus for the figure diving at your legs.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Diving",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Swimming",
+		"description": "Rolls vs drowning are made on 2 less dice (this is cumulative with the 1 die bonus for swimming). See ItL pg.12 to see how divers may rescue drowning figures.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Driver",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to drive a wagon, cart, chariot, etc, or to act as a mahout to control an elephant, dinosaur, or other large animal, in battle or otherwise.  Also give horseman type abilities with respect to large creatures (4 hexes or larger).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Fast Draw",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "Speed 11+",
+		"description": "Costs 1 memory if you have Thrown Weapons.  Allows you to ready a weapon as a free action.  Note: pole weapons that are readied this way can't get a +2 DX for standing still verses a charge.  The weapon is drawn at the start of your action phase. <br /><br />If you are disengaged then you may sling your current weapon, if you are engaged then you must drop your current weapon. <br /><br />(Shields may not be readied with this talent, see Shield Rules).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Fast Sheath",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Fast Drawm Speed 13+",
+		"description": "As Fast Draw but it allows you to sling a ready weapon when you are engaged, and ready, and attack with the new weapon. You must make a 3vsDX to do all this, if the roll is failed then you may not attack",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Fletcher",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "You make arrows and crossbow quarrels. You can make 20 arrows / week or a +1 DX arrow per 10 days. (40 arrows / week or a +1 DX arrow / 5 days with a proper shop.) This +1 DX can only be used to help reduce range negatives, it is of no use at very short range. A +1 DX arrow costs $20 and there is a 2 in 6 chance it will be ruined each time it is shot.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ghosting",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Climbing, Running",
+		"description": "This talent represents expertise in moving efficiently in urban environments. There are 3 advantages given to people who have this talent.  First they may move thru crowds and be slowed by one less movement point.  Also they tend to cause less disturbance since they 'ghost' thru peoples personal space rather than shoving them aside. If the person has climbing this allows them to move along roof tops with one less movement penalty (and it will occasionally allow a bonus to climbing buildings). Lastly, if a city has sewers or tunnels, the person gets one less movement penalty moving thru them. <br /><br />This talent is normally only taught by the thieves guild.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Holy Warrior",
+		"iq": "9",
+		"memory": "1 or 3",
+		"corequisite": "Piety 2, granted by PC's god",
+		"description": "When attacking foes of your god, you do +2 damage armed or unarmed.  If the 3 memory point version is bought, you instead do +2 damage armed or unarmed verses EVERYONE.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Koshing",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "You may strike someone on the head to knock them unconscious with out permanently harming them. There is a -6 DX for a head shot and an additional -2 DX to hit the right spot with just the right amount of force. Figures without this talent may attempt to kosh someone but are at -4 DX. <br /><br />You must be in your target's side or rear hexes, and strike them with a leather, sand filled tube. This does subdual damage. The total penalty is -8 DX, but you get +6 DX if your target does not know you are there. If you do 5 or more points of damage the victim falls unconscious, and if you do 2 to 4 hits the victim falls unconscious unless they make a 5vsAdjST (subdual damage counts when calculating the adj ST). People knocked unconscious will remain so for 1 to 6 hours. If you roll a 16, there is a 50% chance that it is a normal miss, and a 50%  chance it will do real damage. (Double and triple damages will do *2 or *3 subual damage NOT real damage.) <br /><br />(Note, in real life concussions can easily do permanent damage.  This talent does hollywood style knock-outs where there is never any permanent harm.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Push Back Twice",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Speed 15+",
+		"description": "You may push back smaller figures twice per turn. The first time is as per normal (at the end of your movement), the second time is at the end of the turn just before the retreat phase. Figures you push back must make normal saving throws to remain standing. <br /><br />You may only use this talent if you have moved half your MA or less.  (Note you can take your second 'push back' for the extra movement even if no one is there.) <br /><br />If, because of your second push back, figures that could have been retreated are no longer adjacent to the figure that intended to retreat them, then the retreat may not take place. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Racing",
+		"iq": "9",
+		"memory": "3",
+		"corequisite": "Running, Strength 12+",
+		"description": "This only costs 2 memory points if your ST is 8 over the average for your race. Gives you +2 MA in leather armor or less. You may double the distance that you may travel in long distance running for a given amount of fST before you are forced back to a walk.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Recognize Value",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "If you have this ability, the GM will tell you whenever you see something of worth. You will not get an accurate idea of the cash value of the item. If the value is well hidden, a saving roll vs IQ may be required with people with this talent rolling 2 dice less than normal.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Silent Movement",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "A figure with this ability can walk so quietly that you cannot be heard by normal ears. A figure with Acute Hearing, or a wolf, or sharp eared animal, could hear you up to 3 Mh away, but only if it was actively listening for some thing. To move silently, you must be wearing leather armor or less, and must not be moving faster than 4 hexes per turn. By moving even more slowly, the distance that you can be heard at can be proportionally reduced. <br /><br />In stealth contests, your opponent must roll 2 extra dice to hear you when you are moving silently.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Skiing",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "You can ski on flat or slopes. On flat ground MA is +2, Uphill it is *1/2, on slopes it is *2 MA or more depending on how steep the slope is and how fast the skier is going. *2 MA requires a 2vsDX; *3 requires a 3vsDX; *4, a 4vsDX. (*4 is the normal maximum.) You get +4 DX if you are using 2 ski poles or +1 DX if you have only one.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Sleight of Hand",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "adjDX 13+",
+		"description": "No gauntlets allowed. You can make small hand held objects 'magically' disappear on a 3vsDX. Other uses for this talent can no doubt be found. Observers require a 5vsIQ to see where the object has gone. (Even higher number of dice will be needed to see where the item has gone if you can carefully stage the Sleight of Hand and control the angles your victims can see you at.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Unarmed Combat 1",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "Dexterity 12+",
+		"description": "Note, to use this talent a figure must be in no armor, cloth armor, or have leather armor with no negatives. Basic martial arts knowledge, similar to judo, karate, la savate', etc. A figure with this skill does one extra hit of damage when ever he fights with bare hands in regular or HTH combat. When you engage someone in HTH your opponents attack you at -2 DX.  If you take the Enter HTH and Attack option you are not at the normal -4 DX while doing this.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Veteran",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "Warrior, Strength 16+",
+		"description": "Protects you like Warrior, but more so: you subtract a total of 2 hits from each attack against you with these two talents.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mundane",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Beekeeper, Boat builder (See Expert Carpenter at IQ 13 to build ships), Brick maker, Butcher, Chandler, Culture (an alien culture, your own is free), Dancing, Draper, Farrier, Fishing (sport), Gardener (including garden herbs), Haberdasher, Librarian, Papyrus maker, Parchment maker, Scribe(preq Literacy), Shorthand (preq Literacy).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mundane",
+		"iq": "9",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Baker, Blacksmith, Carpenter, Cook, Cooper, Embalmer, Fisherman, Geologist, Hunting, Leather worker, Mason, Miner, Paper maker, Potter, Seamstress/Tailor, Storyteller, Tanner, Teacher, Tinker, Wainwright, Weather Sense (requires 3 & 4vsIQ for good weather predictions), and Woodcutter (makes wood cuttings: blocks of wood that are stamped on ink to make pictures when pressed against paper).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mundane",
+		"iq": "9",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "Artist/Calligrapher, Brewer, Gem-cutter, Glass Maker / Worker, Herbalist (wild plants and mushrooms), Joiner, Metallurgist, Sculptor, Vintner, and Woodcarver.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Gunner",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Costs 0.5 points less if you have Guns. You may use and maintain cannon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Peculiar Weapons 2",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Whichever IQ8 weapon talent is needed for your peculiar weapon",
+		"description": "This allows any peculiar weapon to do +1 damage. except sha-ken (which is included in Knife 2), blowgun, and guns. There is a separate talent for each peculiar weapon, thus Naginata 2 would require a separate memory point from Quarterstaff 2.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Acrobatics",
+		"iq": "10",
+		"memory": "1+",
+		"corequisite": "Dexterity 12+",
+		"description": "An acrobat is one who is trained in keeping his balance, recovering from falls, etc. A person with this talent can make his DX roll on one less die whenever a saving roll is called for to avoid some type of fall or clumsiness or to avoid some large falling object. An acrobat can climb up a rope at the rate of 2m/turn with no risk of falling (double the normal rate and a non-acrobat must roll a 2vsDX each turn). Lastly if an acrobat does fall he takes 4 pt.s less damage. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Armourer",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "Costs 1 point if the character knows Blacksmith. Lets character, given access to the proper tools and materials, build and maintain ordinary weapons and armor - not including fine weapons, crossbows, gunpowder weapons, or siege engines. He knows weapons and can recognize fine weapons. He can recognize magic weapons on a 3vsIQ (tho he won't know anything more than it does more damage than it should).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Diplomacy",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Allows the leader of a party to command a party containing members of races hostile to him or each other;  allows a character to attempt to talk to a member of a hostile race with out an automatic negative reaction modifier ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Expert Horsemanship",
+		"iq": "10",
+		"memory": "1+",
+		"corequisite": "Horsemanship",
+		"description": "An Expert Horseman can break wild horses and other riding animals of any type he is familiar with. He suffers no DX penalties for fighting while riding. An expert horseman can train riding animals like he is an Animal Trainer, and doctor them like he is a Vet.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Fencing 1",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "Sword, adjDX 14+",
+		"description": "This costs 1 pt if you have Knife 2. Ability to use a sword well. On a to hit roll of 3-4 you do *3 damage, on a to hit roll of 5-7 you do double damage.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "First Aid",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Very basic healer's ability. Someone with Physicker gets this talent for free. If someone is wounded, you may do basic bandaging which will heal one hit on any humanoid figure (wounds only - not exhaustion) after any combat or accident. You must have a first aid kit to do so. Efforts of more than one healer are not cumulative. It takes 5 minutes to heal one hit. This must be done within 7 minutes of the when the wound was made. This may only be done once per wound, and only on the most recent wound.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Gatherer-Preparer",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Knowledge on how to collect and prepare ingredients for alchemical potions.  Note this talent costs 0 pts if you have Naturalist and Recognize Value (but still takes 3 months of studies to learn). This talent does cost 2 memory points for wizards.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Hiding",
+		"iq": "10",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This talent is about motionless (or very slow movement) stealth.  When you are trying to hide from someone, or blend into a background environment, you get a 1 die bonus in the Stealth Contest. You understand and can use camouflage. (See Stealth in TFT for more info.) <br /><br />This talent does not help you to move silently, use Silent Movement for that. <br /><br />This talent also allows you to hide other things. If you want your observation post to not be seen by flying troops on griffons, this talent would be used to hide it.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Karate",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "All your unarmed attacks do +2 damage (Nunchucks do +1) in regular combat (not HTH). If an enemy tries to enter HTH by diving at your legs, and you roll a 6 or higher (which results in him not entering HTH & you getting a free hit on him), then if your free hit is unarmed, you do +4 damage instead of the +2 listed above. <br /><br />If you have the Koshing talent, then you may Kosh someone with your bare hands.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mimc",
+		"iq": "10",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to reproduce any voice, accent, or (if you are also a Naturalist) animal call. The GM rolls a 4vsIQ for your victim to see if he is fooled. This roll is modified by how complex the call is to be. This talent also helps you detect someone else trying to fool you with this.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Missile Weapons 1",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "A high degree of skill with whatever missile weapons the figure has the talent for, attained by constant practice. May also be used with missile spells which the figure knows. This talent gives you a +3 DX with all missile weapons (and missile spells). If you aim (with no bonus DX) for at least one turn you may fire at very long range with lower DX penalties (see A.M. page 25).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Naturalist",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "Knows about herbs, animals, etc.; will Recognize all races and creatures except weird GM creations. A naturalist gets a 3vsIQ to see a slime or other natural ambushing creature just before he walks into the ambush area. This becomes a 5vsIQ if he is running or fighting.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "New Followers",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Charisma",
+		"description": "Can only be used if you have successfully made friends with someone with Charisma. You must speak their language and it can only be tried once per character. Make a 4vsIQ for someone of your race, 5vsIQ for a different race and a 6vsIQ for a hostile race and in that case you must also have Diplomacy. A successful roll turns that character into a follower. Only NPC's can be taken over with this talent. In a very bad situation the GM will make a roll to see if your followers stay loyal. You may have as many followers and trained animals as 1/2 your IQ round down.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Remove Traps",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Detect Traps",
+		"description": "Using this ability, you may roll the printed number of dice to remove any trap. With out this talent roll twice as many dice. In many areas this talent can be learned only from the thieves' guild.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Seamanship 2",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Seamanship, 4 years before the mast",
+		"description": "A detailed knowledge of all aspects of shipboard life. All normal ship board tasks will take one half as long, and you can repair or jury rig virtually any part of the ship and its hardware.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Sex Proficiency",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Sex Appeal, Dexterity 11+",
+		"description": "Long sexual experience. The advantages of this skill are up to the GM but they should be most useful with inexperienced or unsatisfied partners.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Shadow Play",
+		"iq": "10",
+		"memory": "1",
+		"corequisite": "Knowing the Shadow Spell for at least 6 months",
+		"description": "This talent allows the wizard to get bonuses in & around shadow spells because of long practice using them.  Additionally the wizard gets +2 DX when he is blind or in total darkness. The wizard may: Cast thrown spells on himself while in a shadow hex at no negatives, cast summonings into a shadow hex he can see at no negatives, cast multihex creatures completely inside a multihex shadow even if not all shadow hexes are visible to the wizard, & physically strike into shadows, or out of shadows at +2 DX (added to the -4, -6 or -8 DX for various states of attacks in and around shadows, see also, the Shadow Spell essay). Any summoned creatures made by the wizard will also get this DX bonus.  There is no bonus for missile or thrown weapons or missile spells from, in or around shadows.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Soil Conservation",
+		"iq": "10",
+		"memory": "0.5",
+		"corequisite": "Farming",
+		"description": "This talent allows a farmer to prevent needless erosion and damage to the soil. You know how to rotate crops to preserve the soil (and minimize pests), and how & when to fertilize. Given care over generations, the quality of the soil may be increased.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Street Wise",
+		"iq": "10",
+		"memory": "0.5",
+		"corequisite": "Background as a thief or growing up in the poorest part of a city",
+		"description": "Knowledge of the inner city, its language and its customs.  May make contacts or gain information on illegal or sensitive subjects on a 3vsIQ with out attracting attention.  If someone else tries this they are at +2 dice and a failure results in too much attention from the wrong people. You get a +1 reaction on all reactions with those of the very poorest quarter of the city. <br /><br />This talent costs double if you have Courtly Graces unless you also have Acting.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Thief",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "The ability to pick locks and pockets, and commit similar acts of depredation. Normal locks require a 3vsDX. Magical locks can't be picked by Thieves. Thieves are trained in hiding in shadows; by wearing dark clothing, and freezing motionless, Thieves can force guards make a 2 or 3vsIQ to notice them (depending on how close and how dark it is). Rules for picking pockets are in the Inept Adept 1. For a non-thief to pick locks or pockets; roll double the number of dice that a Thief would.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Thrown Spells 1",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This allows wizards to cast thrown spells with +3 adjDX.  You also get 5 extra hexes added to your maximum range with thrown spells. (Normally the range of a thrown spell is equal to your ST.)",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Master Torturer",
+		"iq": "10",
+		"memory": "2",
+		"corequisite": "Torturer",
+		"description": "This talent costs 1 memory point if you have Detection Of Lies. See rules and table at Torturer (IQ 8).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Tracking",
+		"iq": "10",
+		"memory": "1+",
+		"corequisite": "None",
+		"description": "A tracker can look at an area 1 Mh in size and (if the GM makes a 3vsIQ for him) tell accurately what has passed within the last day or the last thing to pass if many things have traveled over it. A tracker can follow most trails at about 4 hexes per turn depending on trackers IQ, terrain, and if the quarry is being cautious. When moving at 3 hexes per turn or less, a tracker can make it more difficult for someone to follow him or her. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Wide Defend",
+		"iq": "10",
+		"memory": "0.5",
+		"corequisite": "Dexterity 12+",
+		"description": "You are at -4 DX for the rest of the turn and may defend to your sides one hex further than normal. So for a normal human you can use the Defend option to protect your side hexes. Multi-hex figures with multiple side hexes can defend only the first side hex (on each side) adjacent to the front hexes. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ax 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Ax/Mace 2, Dexterity 12+",
+		"description": "You may hook shields. When you attack someone with a shield, you may hook the end of your ax around its edge. You then pull it out of position, eliminating the shield's protection completely (your weapon remains out of use until you let him go or he breaks free). However your weapon arm(s) holding your ax are only -2 DX to hit. For him to free his shield requires an action and a 4vsDX. <br /><br />You get +1 on critical hit location rolls.  When throwing axes you get +2 DX. When cutting ropes, the hafts of pole type weapons, doors, unresisting (or unaware) surfaces you do +5 damage.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Bow 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Bow 2, Dexterity 15+",
+		"description": "Your bows get +1 on critical hit locations. You may fire at double and triple vital hit locations at double normal range for those locations (now 30 hexes for double damage, and 20 hexes for triple damage).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Crossbow 3",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Crossbow 2",
+		"description": "You may fire a light crossbow twice per turn if your speed is 18+ & your ST is 17+, or a heavy crossbow once per turn if your speed is 22+ and your ST is 20+.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Knife 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Knife 2, Dexterity 15+",
+		"description": "Increases damage done by knives and single sha-ken by +1. Also adds 2 to the critical hits roll when determining a possible critical hit location. That is a roll of a 8 (leg) becomes a 10 (right arm). Blocking with a Main Gauche now stops 2 hits.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mace/Hammer 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Ax/Mace 2, Strength 15+",
+		"description": "Blows to the head will cause a knockout with 3 pts of damage,  and the -3 DX on 2 pts exactly.  Soft armor (Cloth, Leather, Chain) stops 1 point less damage against your attacks. Clubs do +1 damage.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Morningstar 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Ax/Mace 2, Dexterity 12+",
+		"description": "You may hit an opponent's weapon or arm at a -4 DX, and do normal damage. That weapon or arm is trapped by the chain & may not be used until freed. (Likewise your weapon is trapped.)  To free an arm requires an action and a 5vsDX. To free a weapon requires an action and a roll that depends on the shape of the weapon,  those without heads need a 4vsDX, those with heads require a X:X-1vsST (ties keep both weapons trapped, the person who loses drops the weapon). You may disengage your morningstar on a 3vsDX. <br /><br />Your damage goes past an enemies' shield unless he can roll 6vsDX. <br /><br />You add one to your critical location rolls.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Pick 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Ax/Mace 2, Dexterity 12+",
+		"description": "All picks do triple damage on a 3 to 5 and *2 damage on a 6 or 7. (Normally they do *3 on a 3 & 4, *2 on a 5 & 6.) Note that picks still get caught if your to hit roll is a number evenly divisible by 4. (Trapped picks require a turn to free, but do 1/3 round down, of the original damage coming back out of the wound.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Pole Weapons 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Pole Weapons 2, Strength & Dexterity 27+",
+		"description": "All pole weapons do +1 damage. On the roll to generate the location of a critical hit, add 2 to the roll.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Shield 3",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Shield 2, adjDX 16+",
+		"description": "If you have a shield ready and you are attacked thru one of your front hexes with a non-missile weapon, the attacker is at a -3 DX adjustment.  You may hook the shields of enemies in your front hexes if their shield talents are lower than yours. To do so requires you to make a to hit roll at a -4 DX.  If successful their shield does not protect them from your attack (which must be at -4 DX as well).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sling 3",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Sling 2, Dexterity 16+",
+		"description": "This allows slings to do an extra +2 damage. If your adj Speed is 18+ with your sling, you may fire it twice per turn. Your point blank range with slings increases from 3 to 5 hexes. Lastly if you are within 5 Mh your add 1 to your critical location roll.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Sword 3",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Sword 2, adjDX 15+",
+		"description": "This allows swords to do an extra +1 damage.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Assess Value",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Recognize Value",
+		"description": "Lets you look at an object and determine its value. You can not tell if a object is magical, but if told what spells are on an object then you can tell what the fair market value of the magic is.",
+		"auto": "true",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Acting",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent allows you to entertain audiences by putting on plays. You will have a trained voice and will be able to project your words. You have experience in taking on other personas and will have a wide variety of 'habitual phrases' and ways of expressing yourself. You will be a quick study of other's body language and figures of speech. In any situation in which you are playing a part or trying to gain or avoid attention you get to add or subtract 3 from any rolls the GM throw your way. Acting gets a +3 reaction in the same situations as bard (the two reactions modifiers are not cumulative).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Biofeedback",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent costs 1 pt in high technology areas. You know basic psionic defenses. Also you can; regain fatigue at 1 pt per 6 minutes of deep meditation (or 12 minutes of normal rest), regain damage at 1 pt per day of rest and meditation, minimize blood loss damage. Each time you take 10 pts of damage in a single blow, you only take 9 pts if you can make a 3vsIQ. Make this roll first, before any rolls to stay conscious. It takes one minute to enter or leave a deep meditative trance.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Block Missiles",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Shield, Speed 18+",
+		"description": "This talent allow you to block missile weapons and visible missile spells with your shield.  The shield is angled so that it will stop triple its normal number of hits. Blocking arrows is an action, but you can move up to half your movement and dodge. To block a missile is a 3vsDX with each subsequent missile having a cumulative -4 DX. <br /><br />This talent does not triple the bonus from Shield 2, or other talents that improve shield's defence.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Business Sense",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Sword 2, adjDX 15+",
+		"description": "General knowledge of business, trading, etc.  A character with this talent gets a +2 reaction on any reaction roll involving a business deal. He can also try to swindle a figure by either selling him some thing at twice its value, or buying one item at half its value, if: (a) the trader is smarter than the person being bilked and all his companions, (b) the trader makes a 4vsIQ. If the trader meets the victim again after the victim has had a chance to think things over, the trader must make another 4vsIQ or get a new reaction roll at -2 reaction.  Note that Business Management (at IQ 13) is the next talent in this series.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Campaigner",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Veteran, Strength 17+",
+		"description": "Like Veteran it allows you to take 1 less point of damage by moving with the blow. (-3 hits with Warrior and Veteran.) <br /><br />OPTIONAL RULE: The first point of damage that you actually take is treated as subdual damage and not real damage, if you can make a 4vsDX as you take the wound. (Before negatives to DX caused by that wound.)  This one point of subdual is not counted as damage so far as reactions to injuries in concerned.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Casing",
+		"iq": "11",
+		"memory": "0.5",
+		"corequisite": "Thief",
+		"description": "This talent allows a thief to study a location for weaknesses in its security more quickly and successfully than normal.  Someone with Casing rolls one less die to notice traps. (This bonus is in addition to that given by Detect Traps and Alertness.) The main advantage of this talent is that the GM may point out weaknesses or give suggestions to the thief on ways to get by security.",
+		"auto": "true",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Chemic Journeyman",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Chemic Initiate, Literacy",
+		"description": "More techniques are revealed such as calcination and dousing. Normal chemical formulas can be made.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Courtly Graces",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This is the ability to pick up court manners and protocol, and to behave in an upper-class fashion when necessary. A figure with this talent gets +1 on all reaction rolls involving nobility or similar figures. You also get a +1 with very low class individuals are involved - you over awe them. If you use your upper class manor in and unwise, inappropriate, or rude manner you get a -2 reaction. ",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Culture",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Living in a culture or living with someone that has spent a lot of time in the culture you are studying.",
+		"description": "This is knowledge of the customs and mores of different cultures (you get your own culture free). Scholar gives an overview,  this talent give great details on a culture. <br /><br />Note: wizards typically have a culture within a culture and wizards can learn this wizardly culture at normal memory cost. To learn the whole culture costs double. Non-wizards may not learn the wizardly culture unless they spend an extra memory.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Dauben Activation",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "The ability to use magic.",
+		"description": "This talent allows you to activate dauben type potions. Note that as a type of security, some dauben are dangerous to activate if you are not familiar with their construction. This talent is included with Endaubuman.",
+		"auto": "false",
+		"wizard": "single"
+	}, 
+	{
+		"name": "Detection of Lies",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "Ability to tell when a humanoid type is lying by watching his eyes, breathing, etc. A figure with this talent may use it once after conversing with any other character. The GM makes the roll. He rolls 5 dice if the lie-detecting figure's IQ if the liar is smarter than he is, 4 dice if they have the same IQ, and 3 dice if the liar is less intelligent. If the roll succeeds the GM tells whether the figure lied. If the roll fails, the GM lies about whether the figure lied.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Dishonest Gambling",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "adjDex 12+",
+		"description": "To detect cheating you get a +3 ( if you also have Gambler you get +6 ). When you cheat you have +3 on the X:X roll. Cheating is one of the few X:X rolls where you roll vs one attribute ( DX ) and then they roll vs another (IQ). When you are lying treat your IQ as being +2 for purposes of comparing your IQ to that of someone with Detect Lies.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Gambling",
+		"iq": "11",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This talent allow you a +1 reaction when gambling or bluffing someone. This talent gives you long experience with games of chance and skill so your pay off will be about 10 % more than would normally be expected. You will be aware of common forms of cheating so you have +3 IQ when trying to detect it, and since you know how it is done... you may try to do so at no negatives.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Goldsmith",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Blacksmith",
+		"description": "The ability to work with gold, silver, and jewels, etc. Both this talent and Armorer are needed for the manufacture of silver weapons, armor, etc.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Holy Champion",
+		"iq": "11",
+		"memory": "1+",
+		"corequisite": "Piety 3, Holy Warrior, granted by PC's god",
+		"description": "You stop 1 extra hit from everyone except foes of you god where you stop 3 extra hits. <br /><br />Foes of your god that are immune to normal damage take full damage from you & your weapons. <br /><br />For each memory point spent on this talent, you gain a +1 reaction modifier when trying to encourage people to fight foes of your god. <br /><br />For each memory spent on this talent, the threshold number for armor is two lower.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Skier",
+		"iq": "11",
+		"memory": "1+",
+		"corequisite": "Skiing",
+		"description": "On level snow MA is *2, uphill normal MA, & downhill is per skiing but you roll one less die. This includes ski jumping (typically a 4vsDX).",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Mechanician",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "A builder of mechanical gadgets and clockwork devices. This ability includes that of Remove Traps. If you already have Remove Traps this only costs you 1 pt. This talent also gives you the abilities of an Armorer with respect only to crossbows and siege engines. A mechanician can also build traps. With proper materials and tools it will take the listed time and cost. See Building Traps. A mechanician can work with and try to figure out, strange technological devices. ",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Monster Followers 1",
+		"iq": "11",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Works the same as New Followers to bring any monster with an IQ of 6-10 into your service (monsters of IQ 3-5 must be trained, for which you need Animal Handler). You must first befriend the monster.  The die roll is vs IQ and is two dice for each 10 adjST the monster then has. Each 10 ST the monster has counts as one regular follower.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Move Two and Cast Spell",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Speed 10+, at least one of the following talents: Shifting Attack, Missile Weapons, Thrown Weapons, Move Two And Fire or Running",
+		"description": "Allows an unengaged figure to two move two hexes and cast a spell.",
+		"auto": "false",
+		"wizard": "single"
+	}, 
+	{
+		"name": "Move Two and Fire",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Speed 12+, Missile Weapons",
+		"description": "Allows an unengaged figure two move two hexes and fire a missile weapon.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Priest",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "Acolyte",
+		"description": "Religious training in what ever religion you support.  You generally get +2 reaction from people. Some GMs will give Priests special or magical powers.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Shadowing",
+		"iq": "11",
+		"memory": "1+",
+		"corequisite": "Silent Movement",
+		"description": "The is the ability to move so inconspicuously that people will look right thru you. This talent allows you to blend into crowds, peek around corners without being seen, etc. on a 3vsDX (or more dice if the situations warrants). You may shadow someone with out being seen by winning an X:XvsIQ (if your DX is 6+ higher than the person you are shadowing you get +3 on this roll). With this talent you get +4 IQ to detect someone shadowing you. <br /><br />This talent includes training on avoiding visual detection by slow movement, knowledge of hue and shade, & use of background motion. In Stealth Contests near other people, you gain a one die bonus. <br /><br />On a 4vsDX you can triple your lead time during pursuit or escape pursuit altogether by ducking into a room, branching tunnel, or wide spot in if available. (Other characters may try these things with +2 dice). To use this talent you must be wearing leather armor or less.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Snap Rise",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "adjSpeed 13+, ST 4 or more above the average for your race",
+		"description": "This talent teaches you to fall with your arms and legs positioned to quickly throw you to your feet. You get up faster and usually won't use your action. <br />If you have fallen this turn due to damage, then you have lost your action and this talent does not help you. <br /><br />If you are allowed to stand up during movement, then you may either do so and move ½ your movement (this uses your action), OR you may stand and attack at -2 adj DX. <br /><br />Any time you can spend your action to stand up, you gain 2 advantages:  First you get to stand up with your speed 6 higher than your DX. (So if you are on the ground with a 10 DX and someone with an 11 DX want to hit you, they get +4 DX since you are on the ground.  But your +6 speed means that you stand up on a 16 so you rise before they hit you.) Also, you may stand up as a free action, (thus you may attack) but are at -2 adj DX for the rest of the turn.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Tactics",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "If you're the leader of a party you get a +1 on initiative rolls.  Additionally, you may ask for tactical hints from the GM as to what the best course to take would be in a fight. This requires a 5vsIQ roll. The GM makes the roll. If the roll is successful, the GM tells the player a hint which may be what the enemy could do, or some enemy weakness that the player has overlooked. <br />The essence of tactics is taking advantage of the enemies' weakness. If a player lacks the 'killer instinct', and his character takes this talent, the GM may give gentle hints when the player is not being aggressive enough. <br /><br />(Note that Strategist is at IQ 15, tho Logistics is at IQ 13.)",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Trained Will",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "You are trained in the ways that people intimidate, fast talk, befuddle, seduce, use oration, or any of the many ways that people try to manipulate others. Any time someone tries to manipulate you into doing something that you wouldn't normally do, you get +3 IQ to resist this pressure.  You also get +1 IQ to resist possession, panic, psionic & battle of will rolls. Three years after you have learned this talent, you have more confidence in your decisions (or are at least more practiced at being stubborn) and you get +3 IQ to resist possession, panic, psionic & battle of will rolls. <br /><br />Note that Psychic Combat at IQ 15, is not related to this talent, but people often take both.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
+		"name": "Two Weapons",
+		"iq": "11",
+		"memory": "3",
+		"corequisite": "Speed 15+, talents for the weapons you are using",
+		"description": "This is the ability to use two 1 handed weapons at the same time. Any character can fight with 2 weapons at once, if one of the the weapons is a dagger, main-gauche, or spiked shield, or if some combination such as net and trident or two cesti are being used.  (The DX adjustments are -4 for the first attack and -6 for the second). However if you wish to fight with 2 full sized weapons you must have this talent. This talent allows you, when fighting with 2 weapons, to do one of the following: <br /><br />(a) attack with the first weapon normally then attack with the second, at the same or different foe, at -4 DX. <br />(b) make a normal attack with the first and use the second to block with. The second weapon acts as a shield stopping 3 hits (exception: no good verses missile fire). <br />(c) block with both (as per above rules), stopping 5 hits. You may only combine this talent with Fencing if the swords you are using are rapier-rapier or rapier-main gauche, or if your Power is 5+ the ST needed to use that weapon one handed (in which case you lose any ST damage bonus you have earned, just treat the sword as a weapon requiring a 5 higher minimum ST for calculating Great ST damage bonuses). <br /><br />If you have Quick Draw talent you may ready two weapons and attack with both if you start the turn unengaged (if engaged you may ready only one and still attack).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Unarmed Combat 2",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Unarmed Combat 1, Dexterity 13+",
+		"description": "Like UC1 except that you do 2 extra hits of damage in all bare-handed attack (this is not cumulative with the damage bonus from UC1). You may also shield rush with out a shield to knock someone down. Use shield rush rules. Each level of UC above this one gives you +5 ST for the purpose these shield rush saving throws. <br /><br />If someone tries to enter HTH with you by diving at your legs, you add 1 to the 1 die roll to see if they are able to get into HTH. (This +1 to the roll is cumulative with the bonus for Dive Block and the +1 since they are trying for your legs in the first place.) <br /><br />Like all UC talents this gives you a bonus die when rolling for Take Downs or Pins in HTH (see extra HTH options).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Woodsman",
+		"iq": "11",
+		"memory": "1",
+		"corequisite": "Naturalist",
+		"description": "A woodsman is knowledgeable at living off the land. Expert in camping and survival, he can build a camp, make a fire in the rain, find edible plants, etc. <br /><br />If a party is traveling thru the wilderness without rations and or camping gear, each member must make a 3vsIQ each day or take 1 hit of damage from exposure, lost sleep, bad food, etc. Damage is *2 in swamp or rain, *3 (or more) in desert or extreme cold. Hits lost this way can not be recovered until the party reaches civilization and can rest. (Exception, healing spells.) Any travel in a wilderness is at 1/2 normal rate (or slower) unless half or more of the party are woodsmen.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Gunner",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "Gunner",
+		"description": "Ability to repair (if possible) and lay cannon very accurately. You get +3 DX when aiming a cannon. You know how to use exotic ammunition such as stone or heated shot. You may command multiple gun crews.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Peculiar Weapons 3",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "Whichever IQ 10 peculiar weapons 2 talent you need for the weapon you are using",
+		"description": "Your peculiar weapon does +1 damage, and any roll of 7 or less could be a critical. You add 2 to any critical rolls to determine the hit location. This talent may not be used with sha-ken, Guns or  Blowguns.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Criminology",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This talent costs 0.5 points if you have Thief. This talent is the systematic study of crime solving methods. At higher technologies there is a much larger body of knowledge, and this talent costs double.  You roll one less die when trying to find clues for a crime. This talent may combine bonuses with Alertness. A person with this talent is known as a 'Criminal Inquirer' or just 'Inquirer'.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Engineer",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Literacy",
+		"description": "Ability to build, maintain, and effectively use all siege weapons, and large weapons of war, including the ballista, trebuchet, catapult, bombard, siege towers, battering rams, etc.  You may detect or conduct a mining operation against a castle.   You can build military roads and bridges. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Expert Naturalist",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "An Expert Naturalist gets a 2vsIQ to see ambushes by slimes, etc., before they occur, or a 4vsIQ if you are running or fighting. You are capable of recognizing all races of intelligent creature and all types of monster or beast, and you know all important information on them. You can make a good guess (4vsIQ) as to the general nature of new beings the GM has introduced.",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Fencing 2",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Fencing 1",
+		"description": "A regular melee attack thru your front hexes when you have a sword is at -2 DX (this includes thrown weapons, but not missile weapons). Also you add +2 to the roll when generating the location of a possible critical hit. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Flying 2",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Flying",
+		"description": "Increases flying MA by +2 and someone with Flying 2 does not suffer any DX penalties for physical attacks or spell casting while in the air. Someone with this talent has twice the normal flying endurance.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Garroting and Backstabbing",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Silent Movement",
+		"description": "When you sneak right behind someone they can detect you if they were trying to sense someone (Invisibility rules, an invisible figure being adjacent to someone). If they are not expecting someone they must roll to detect you; 3vsIQ, +3 dice if you have Silent MA, -5 dice if they have Acute Hearing, or -1 die if they have Alertness. If the figure hears you he must immediately disengage ( you may attack as per attacking a disengaging figure ) or turn to face you ( normal combat but he is at -4 DX for this turn ). If the figure doesn't hear you, you may garrote or backstab the figure. <br /><br />See the Talents document for more details.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Holy Ascetic",
+		"iq": "12",
+		"memory": "1+",
+		"corequisite": "Piety 4, granted by PC's god",
+		"description": "The minimum required IQ for all UC talents is reduced by your piety. <br /><br />You may only be engaged in HTH combat if you want to be. (Roll the die to see if they enter HTH, but any result where they succeed is treated as if they rolled a 5: “fail to enter HTH”.) <br /><br />If you are prone (including prone due to damage) and someone tries to enter HTH with you then roll 1die: On a 1 to 3 the foe is knocked back, on a 4+ you get a free unarmed attack (a kick) from the ground. <br /><br />For each memory point spent on this talent, you gain +3 IQ to resist panic, possession, those psionic attacks which give IQ saves, and battle of wills. <br /><br />If two memory is spent on this talent, you gain the talent Bio Feedback for free. <br /><br />If three memory is spent on this talent, you can mimic death much like the Little Death Spell for your PY in hours.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Horticulturist",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This represents special skill with caring for domesticated plants. A horticulturist can grow special or exotic plants with care.   With normal crops, a Horticulturist can increase yields by 10%  over an area of 1 are (10 by 10 meters), per IQ. Example, a Horticulturist with an IQ of 15 can increase yields by 10% over 15 ares. Note that this is with his own extra labor, if a Horticulturist is directing peasant labor,  they will resent the extra work and the bonus would be only 2% to 5% over normal (but then much large plots of land can benefit from the horticulturist's expertise).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Improved Thrown Spells",
+		"iq": "12",
+		"memory": "3",
+		"corequisite": "Thrown Spells",
+		"description": "This gives the wizard an additional +3 DX with all thrown spells. The maximum range of thrown spells is now 10 more than the wizard's ST in hexes.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Judo",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "Unarmed Combat 1",
+		"description": "Any time you try to engage someone in HTH that person must subtract 1 from his HTH defense roll (the one die roll to see if you get into HTH or not, and whether he draws a dagger or not). Anytime someone tries to jump you in HTH you may add +1 to your HTH defense roll.  If the modified result is a 6+ you get an automatic attack.  If it is a 7+, and you are unarmed, you may throw who ever tried to jump you into an adjacent hex and do +3 fist damage.  Exception: If the figure that is trying to jump you in HTH is so large that you can not engage it unassisted, then you may not throw the figure. <br /><br />You get +2 DX in HTH combat, and an additional +2 DX if you are unarmed. <br /><br />For calculating who is the strongest person in an HTH combat, for trying to break pins, and for attempting (or resisting) a Take Down, you get +4 ST in HTH. <br /><br />You get no bonus in Pins and Take Downs (other than those given by modifying your DX and ST). ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Karate 2",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "Karate, Strength 12+",
+		"description": "You do +1 damage unarmed & may do a special leaping kick. This special attack is used against a target exactly 2 hexes away from you. The target must be be in front of you. To do the kick you announce you are doing so and roll to hit at -4 DX. <br /><br />If the attack succeeds the damage is doubled, and there will almost certainly be 1 hex knock back against targets even twice as massive as the attacker. After the attack you must make a 4vsDX at -4 DX. If you succeed, you end the attack standing in your original hex. If you miss by 1, 2 or 3, you are standing in a hex adj to where the target started. Otherwise you fall adjacent to the target; your choice of hex if you hit, else it is his choice of hex.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Armourer",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Armourer",
+		"description": "A Master Armourer is the only one who can make fine weapons and fine armor. If he is also a Goldsmith, he can make fine weapons out of silver. A Master Armourer can make or duplicate any type of weapon available to a medieval technology except magic. <br /><br />He can tell if a weapon is magic by its 'feel' (unless a conceal spell is on it) on a 4vsIQ.  With a 5vsIQ he can recognize the following spells: Weapon Armor Enchantment, Immunity to Break or Drop Weapons, or the Ability to Flame. If the roll is missed he is just told that the object is magic. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Seaman",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "Seamanship 2",
+		"description": "Ability to act as an supervisor for ordinary seaman on any large ship. You're expert at rare & unusual shipboard tasks. You may captain small sailing vessels.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Thief",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Thief, Dexterity 14+",
+		"description": "Like Thief except you roll one less die to pick any lock or pocket. To spot a Master Thief hiding in shadows requires one extra die. A Master Thief also knows thieves argot at no extra IQ cost. A master thief is an excellent liar; whenever he lies to someone with the Detect Lies talent that person must roll 1 extra die. This talent is learned from the thieves guild.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Missile Weapons 2",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Missile Weapons 1, two years of intensive practice with your missile weapon",
+		"description": "This allows bows and slings, (but not crossbows, or guns) to do +2 damage when you hit with one.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Multiple Swing",
+		"iq": "12",
+		"memory": "3",
+		"corequisite": "Speed 14+",
+		"description": "You may make sweeping blows at only -2 DX per extra target.  You may make sweeping blows with 1 handed cutting weapons. The damage on each hit is still halved.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Novice Mixer",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Gatherer-Preparer",
+		"description": "Note if you have Chemic Journeyman this talent costs only one point. You may make simple alchemical preparations. ",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Physicker",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "First Aid (prerequisite)",
+		"description": "Healer's ability. A Physicker can heal up to 2 hits on any humanoid figure (wounds only - not exhaustion) after any combat or accident. You must have a first aid kit to do so. Efforts of more than one physicker are not cumulative. It takes 5 minutes to heal the 2 hits. This must be done within 20 minutes of when the wounds were made to heal 2 points and within 40 minutes to heal one point of damage & the subjects must be resting during this time & doing what they can to help. This may only be done on the most recent wound(s), and only once per wound.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Practise Combat",
+		"iq": "12",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This talent allows you to efficiently gain experience by self training for long periods of time. It also represents the control (or complete lack of blood thirstiness) needed to avoid doing double or triple of non-subdual damage, in practice combats. Thus you will never hit your sparing partner with a triple damage and do real hits, they will be subdual hits (but still doubled or tripled). This talent is particularly useful if you are training the king's son. <br /><br />See the Talents document for more details.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Psionics 1",
+		"iq": "12",
+		"memory": "3",
+		"corequisite": "None",
+		"description": "Trance Touch transfer mode and other basic psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
+		"auto": "false",
+		"wizard": "null"
+	},
+	{
+		"name": "Trained Peripheral Vision",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent costs 1 pt less with UC3,  and is free with UC4.  This allows you to use the following facing and vision rules. Note left handed figures have their left side hex turn into a front hex.  Ambidextrous figures may have either side as a front depending on how the weapon is held  With two one handed weapons it may be changed at the start of each turn at no penalty. With a 2 handed weapon this is done at the start of a turn and gives a -2 DX for the rest of the turn. <br /><br />Note that with the Wide Defend talent and this one, you can take the Defend option and have protection over 360 degrees. The Wide Defend (and other talents in that series) can now reach your rear hex. <br /><br />Some people can never gain this talent. If a character is written up with 'tunnel vision' it is a handicap worth 50 EP. <br /><br />See the Talents document for example image.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Wide Swing",
+		"iq": "12",
+		"memory": "0.5",
+		"corequisite": "Wide Swing, Dexterity 14+",
+		"description": "You may do sweeping blows to the hexes one hex beyond the hexes you can normally reach (for a normal human, the side hexes).  Multi-hex figures with multiple side hexes may attack into the first side hex on each side. <br /><br />If the sweeping blow goes into the side (or rear if you can reach that far) you are at -4 DX until the end of the turn. <br /><br />Example, Tarina has the Eyes Behind magic item so she has 5 front hexes, and one side hex. Using this talent she may attack into any hex (including the hex directly behind her). If she does a sweeping blow thru 4 adjacent hexes then she is at -12 DX for all attacks (because of a 4 hex sweeping blow), with an additional -4 DX on all attacks if the blow carries into her side (the hex directly behind her). <br /><br />(If she had Multiple Swing (which halves the DX penalty) she would be at -6 DX and an extra -4 DX if the blow went into her rear.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ventriloquist",
+		"iq": "12",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Ability to throw your voice. Roll is 3vsIQ; subtract 1 for every megahex from your character to the target. Failure means no one is fooled.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Vet",
+		"iq": "12",
+		"memory": "2",
+		"corequisite": "Animal Handler",
+		"description": "Just like Physicker but for animals. With Physicker this talent is 1 pt. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Shield 4",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "Shield 3",
+		"description": "You may attack with shields with +4 speed. You may attack with non-spiked shields (using the edges) doing 1 less point of damage than the same shield with a spike.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Weapon Talent 4",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "The appropriate Weapon Talent at level 3 (For example, to get Bow 4, the corequisite is Bow 3).",
+		"description": "This gives you a +4 speed with that type of weapon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Business Management",
+		"iq": "13",
+		"memory": "2+",
+		"corequisite": "Business Sense",
+		"description": "This gives you a +2 reaction dealing with employees. It also teaches you basic accounting and how to make the paper flow on time. If someone is trying to cheat you by cooking the books, you may make a X:XvsIQ roll to detect the theft.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Champion",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Campaigner, Strength 20+",
+		"description": "Reduces damage like Warrior but stops a total of 4 hits per attack. <br /><br />OPTIONAL RULE: the first 2 hits that you do take after Warrior series of talents, have finished protecting you, is subdual damage. Thus a Champion bounces back after a fight quicker.   These 2 points of subdual is not counted as damage so far as reactions to injuries in concerned. (This two point bonus includes the one point given by Campaigner and no roll is required to gain this protection.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Chemist",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Mathematics, Chemic Journeyman",
+		"description": "An expert in your field and one who is starting to use magical ingredients and rites to supercharge normal potions.  The ability to use magic is not needed, only the ingredients are magic. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Dodge Missile",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Alertness, Speed 20+",
+		"description": "Allows you to dodge 1 arrow per turn or 2 arrows / turn if you have moved one third or less of your total movement.  This is not an option, and may be done along with what ever else you do in your turn.  If you take the dodge option, the enemy must still roll 4 dice to hit you, and you may attempt to dodge 1 extra arrow (if any succeed in hitting you).  You only need to dodge arrows that hit you, no roll is needed for ones that will miss. <br /><br />To dodge an arrow requires a 4vs Speed on the first arrow and -4 DX more on each additional one. If you are dodging only thrown weapons you may dodge one extra thrown weapon per turn (Thus if you are taking the Dodging option you may dodge a maximum of 4 thrown weapons per turn. The second would be at -4 DX and the third would be at -8 DX, the forth at -12). <br /><br />(Note, this is a rare example of a saving throw being made vs an attribute + superscript.) <br /><br />This talent may be used to dodge visible missile spells.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Expert Carpenter",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "Carpentry (IQ9 Mundane talent)",
+		"description": "This talent costs 0.5 points if you have Mathematics or Architect/Builder. This allows you to make large wooden structures such as bridges, watermills and Norwegian style cathedrals. <br /><br />You may build ships if you have Boat Builder (IQ 9 mundane talent) and Seamanship.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Forest Gardener",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "Hunting or Fishing",
+		"description": "This talent is for those who live in one area of the forest and learn a hundred ways to encourage the plants and animals to easily give up their bounty. (e.g. weighing down branches with rocks into a stream to pick up fish roe when they are spawning.) When you are traveling thru unknown areas, you are a bit more adept at finding odd opportunities. <br /><br />This doubles the food intake from Woodsman talent if you groom an area for 2 or more years. It increases the food gained by Woodsman by 10% when going thru new areas. <br /><br />With out woodsman this skill will feed a family of 5 if and only if the person stays in one carefully groomed area ~1 km^2. With Woodsman, the user can travel further and feed x2 more people.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Good Listener",
+		"iq": "13",
+		"memory": "1+",
+		"corequisite": "None",
+		"description": "A trained empath. You can listen to people and understand their feelings and problems. This talent is cultivated by psychologists, diplomats, and good friends. This talent allows you 4 more followers than normal. Each extra memory point past the 1st allows you 2 more followers.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Historian",
+		"iq": "13",
+		"memory": "1+",
+		"corequisite": "None",
+		"description": "A detailed knowledge of history. You must specialize, with each specialty costing 1 memory point. Sample specialties: Regional Political History, Military History, Ancient and Archaic Magics,  Racial Histories, etc. You also know a fair bit of general local history.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Logistics",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Literacy",
+		"description": "This talent costs 1 pt if you have Tactics. This talent is a catch all talent for all skills necessary to support a military company. This talent is very useful to spies working in military intelligence. If you have Mathematics you will be able to oversee any sized military operation.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mathematics",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Literacy",
+		"description": "This is the knowledge of math below the calculus level:  algebra, geometry, trigonometry, and accounting. This ability also allows you to work as an assistant astronomer and/or astrologer. This talents allows you to earn +10 % in a business and wizards, chemists, and alchemists all need it when working on new spells, potions, and items. ",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Master Mechanician",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Mechanician",
+		"description": "You are a natural gadgeteer, and have the best chance of figuring out an artifact. You may build very large gunpowder weapons, siege engines, crossbows, etc. Efficient water and wind mills can be built and extremely inefficient steam mill can be built with this talent.  With this talent you can build traps twice as fast as a Mechanician. <br /><br />A Master Mechanician is needed if magical enchantments are to be integrated into a mechanical device.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Monster Followers 2",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "Monster Followers 1",
+		"description": "Works the same way but on monsters of IQ 11+. The die roll against your IQ is 2 dice for every 25 ST the monster has at that moment. This talent allows you to control one of the GM's monsters. An intelligent monster that joins the party of its own free will does not count against your limit on followers. Also with this talent you may discourage creatures with an IQ of 3-7 with a show of aggression (requires both a 3vsIQ and a 3vsST). If successfully discouraged the monsters will be indecisive and there is at least a 50 % chance that they won't attack, or won't attack in strength.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Paladin",
+		"iq": "13",
+		"memory": "1+",
+		"corequisite": "Piety 5, Holy Champion, granted by PC's god",
+		"description": "The maximum number of memory points that may be spent on this talent is equal to your PY. <br /><br />Warrior/Veteran type talents have the minimum ST requirement reduced by your PY. <br /><br />You may heal 1 or 2 points of damage like a physicker for 1 or 2 fST respectively. This may be stacked with the healing from Physicker and Master Physicker. If you are also a (Master) Physicker your healing time with those talents is halved. <br /><br />If you touch someone's skin you can tell if they have physically attacked someone who represents your church in the last 5 years. Can only be used once per week. <br /><br />For each memory point spent on this talent, you gain one rite granted to you by your god. (These rites often are a little less powerful than those given to clerics, and usually are combat oriented.)",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Scholar",
+		"iq": "13",
+		"memory": "2+",
+		"corequisite": "Literacy",
+		"description": "Will recognize any known language (even if he does not speak it) on a 3vsIQ, with common languages being automatic.  Can teach research, etc, and will receive respect (+2 on any reaction roll) in all civilized areas. If he speaks a language he will speak it well - as tho he were a native. He knows a great deal about history and customs of the various races and peoples, and can on a 4vsIQ make a good guess about the origin of most artifacts or objects. Scholars will know what magic can do even if they don't practice it. <br /><br />Included in the 2 memory points are 2 specialties. Each additional memory pt allows the scholar an additional specialty. Within the scholar's specialty he will know all major books on the subject, understand all theories, and generally can answer all but the most difficult questions without having to refer to his library. Scholars usually have Librarian (IQ 9, mundane talents).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Sense Spell",
+		"iq": "13",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This talent allows someone to notice spells that have a duration and active magic items that have an effective range outside their own volume. <br /><br />Non wizards will get a general sense of what the spell does (e.g. a defensive spell, or something to do with detecting things). Wizards pay twice as much for this talent but can identify the exact spell.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Spying",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Shadowing or Trained Judge of Character & Detect Lies",
+		"description": "Spies  are trained in compromising informants, developing cell systems, recruiting agents & handling them, and transmitting the information gained in a covert manner. A spy is trained as a cog in an intelligence gathering machine. A spy knows 'trade craft' which is the wisdom needed to avoid making a dumb mistake that allows an enemy to notice the spy. <br /><br />In game terms, a spy can use dead drops, or pass messages as the spy brushes by another contact and observers closely watching the spy must make a 6vsIQ to notice the transfer.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Survival",
+		"iq": "13",
+		"memory": "1+",
+		"corequisite": "Woodsman",
+		"description": "This is basically the expert Woodsman talent. You must specialize for the environment it is to be used in, for example, there is Survival: Arctic, Survival: Desert/Savannah, Survival: Jungle/Woods, etc.  Each specialty costs one memory point, but if a person picks up 3 specialties, they can replace them with Survival: All Environments (3+). <br /><br />Someone with this talent rolls two less dice when attempting a survival roll in the listed environment, or one less die on survival rolls in ANY other situation that Woodsman would be useful for. In addition, you are expert in quickly finding things of use in your given environment.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Theologian",
+		"iq": "13",
+		"memory": "1 or 2",
+		"corequisite": "Priest",
+		"description": "Like Priest only more so. This is the level of ability needed to be a high priest or similar character. Generally they get +3 reactions with those of their faith. If you spend 1 point you learn the advanced (non-magical) teachings. When 2 memory points are spent, the Theologian starts to learn any special powers the GM is giving to them. <br /><br />If the GM is giving special powers to Priests, Theologians should get about double.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Unarmed Combat 3",
+		"iq": "13",
+		"memory": "2",
+		"corequisite": "Unarmed Combat 2, Dexterity 14+",
+		"description": "A figure with this ability is a master of martial arts. He does 3 extra hits of damage when he hits bare handed (not cumulative with the bonuses with UC1 and UC2). He may attempt to throw any foe whose ST is less than 3 times his own. <br /><br />To do this you must first hit at -4 DX and then (as part as the same attack) make a X:XvsDX successfully. Each level of UC, allows you +/- 1 die. If you make it the target is thrown into any of your adjacent hexes and takes your normal fist damage. If the contest draws, you do no damage and are standing in HTH (roll normally for take downs if both people don't wish to remain standing). If you loose the contest, you are in HTH as above unless your opponent has UC1,  in this case you fall into any hex adjacent to him (his choice), and you take his fist damage. <br /><br />He may choose the defend option bare handed. <br /><br />Each UC talent gives you a 1 die bonus for Pins and Take Downs in HTH. As explained in UC2, you get +5 ST for making shield rushes without a shield.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Voice",
+		"iq": "13",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This talent gives you a trained control over your breathing and vocal apparatus. You can project your voice 3 times further than normal (important to military commanders and actors, bards, etc. Also you can hold your breath for 50% longer than normal (only 20% longer if you already have Diver talent). This talent is useful for pronouncing demon's true names.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Peculiar Weapons 4",
+		"iq": "14",
+		"memory": "1",
+		"corequisite": "The appropriate Peculiar Weapon Talent at level 3 (e.g., to get Naginata 4, the corequisite is Naginata 3)",
+		"description": "This gives you a +4 speed with that type of weapon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Advanced Thrown Spells",
+		"iq": "14",
+		"memory": "3",
+		"corequisite": "Improved Thrown Spells",
+		"description": "If you have Thrown Weapons, this talent costs only 1 memory point. This gives the wizard an additional +2 DX with all thrown spells. Your maximum range is now your ST+ 15 hexes. A roll of a 16 will not cause a magical backlash with a thrown spell.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Architect/Builder",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Literacy",
+		"description": "Ability to design and build buildings, labyrinths (and castles if you have the Engineer talent). Architects may oversee sieges, detect mining operations and study plans to spot weak points. If a character has this talent, the GM should give him a few extra hints when the players are presented with mysterious tunnel or building maps. An Architect also rolls one less die to see a hidden door or trap. ",
+		"auto": "true",
+		"wizard": "double"
+	},
+	{
+		"name": "Disguise",
+		"iq": "14",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "The ability to impersonate others. It takes about an hour to disguise your self (less for a simple disguise). Generally the rolls needed to detect the disguise fall into two classes: <br /><br />Staying in character. You must roll vs your IQ to avoid giving away the show. Generally to behave like someone wholly unlike your self (ie, different culture or different sex) requires a 3vsIQ each turn. The time between saving rolls would be longer if the role is close to your own. You would have to roll more dice if language, or physical differences are important to the disguise. Both automatic successes and automatic failures are possible.  Acting helps with this talent. <br /><br />Someone noticing something. If the people you are trying to fool know who or what you are impersonating and the disguise is not perfect then they get a roll to notice something. This is up to the GM to determine but generally if they miss their first roll then a second chance should not be allowed until something calls attention to what ever is out of place. Talents that help are: Mimic, Acting, knowing the language, Scholar, and talents of who ever you are impersonating. Glamors can be used to perfect your appearance.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Endaubuman",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Novice Mixer, Chemic Initiate. Prerequisite: Dauben Activation",
+		"description": "Normal alchemical creations can now be made.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Expert Horticulturist",
+		"iq": "14",
+		"memory": "1",
+		"corequisite": "Horticulturist",
+		"description": "This talent costs only one memory point if you have Woodsman. This talent allows you the ability to care for any form of plant life, domesticated or wild. You will be able to diagnose and treat a variety of plant diseases and infestations. In the wilds you will know how to treat plants that are normally unsafe to eat, to make them wholesome. If you are also a Woodsman you will be able to care for an additional person in the wilds. You know what wild herbs would be useful to healers, alchemists, wizards and chemists. On a farm, you gain no additional bonus over Horticulturist unless there is some sort of infestation. An Expert Horticulturist does make a useful supervisor for enslaved peasants as they can be directed what to grow, burn, plant or kill.  Generally if there is an infestation or disease, losses can be reduced by 20% with this talent.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Expert Vet",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Vet",
+		"description": "A Master Vet can heal animals like a Master Physicker can heal people. This talent costs 1 if you have Master Physicker.  A Master Vet can make healing potions and healing salves just like the chemist's potions  (a lab costing $2500 is required for this).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Judo 2",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Judo 1, Dexterity 14+",
+		"description": "You may add or subtract one point (your choice) when entering HTH or seeing if someone gets you in HTH, and if you throw them (see Judo for how you can throw them) you do +5 instead of +3 fist damage. <br /><br />When someone is trying to engage you in HTH, you have no rear hex. Thus no one can try to attempt HTH by 'coming from your rear hex'. <br /><br />You get an extra +2 DX in HTH. <br /><br />When calculating who is the strongest figure in HTH, for breaking pins and for Take Down contests, your get an extra +4 ST in HTH. <br /><br />Lastly prone people with this talent can crawl 3 hexes. They may defend against unarmed attacks while on the ground, and may attack unarmed at –3 DX while prone if they move 0 hexes.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Armourer 2",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Master Armourer",
+		"description": "A Master Armourer 2 may make fine items for the normal price, but it will only require 75% of the normal time to make. (Thus he can make 4 fine weapons in the time normally takes to make 3 of them, so he will get 133% more money per week.) A Master Armourer 2 is required to work with metals harder than good quality steel.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Bard",
+		"iq": "14",
+		"memory": "2+",
+		"corequisite": "Bard",
+		"description": "A Master Bard can sing very well, play all manner of musical instruments, and compose songs and poetry to please his listeners.  When preforming, a Master Bard gets an automatic +3 reaction when he speaks the language of those he is talking to, and a +1 on anyone else including animals. (Note: I use a 3 die version of the reaction table like the one out of GURPS.) <br /><br />Bards have a trained memory for remembering words and speech. Basically they can listen once to any speech of 500 words or less, and repeat it word for word with out error.  Longer speeches may be remembered but the Bard will paraphrase slightly. <br /><br />Bards are very important in ancient societies as they are the major source of news. Bards usually enjoy a partial immunity to 'laws' preventing criticism and gossip about nobles.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Physicker",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Physicker",
+		"description": "A Master Physicker can heal 1 hit without his medical kit or 3 hits with it. This takes 5 minutes. Treatment with a Master Physicker is Not cumulative with a Physicker's healing. Each 20 minutes (of rest) before treatment begins means 1 point of damage can't be fixed. Thus a Master Physicker can not help if an hour has passed before he arrives at the wounded figure. This may only be done on the most recent wound(s) and only once per wound. <br /><br />A Master Physicker can make healing potions and healing salves just like the chemist's potions. This requires a subset of a chemists laboratory that costs 1/10 as much to build and maintain.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Missile Weapons 3",
+		"iq": "14",
+		"memory": "3",
+		"corequisite": "Missile Weapons 2, Power 4 over the minimum ST for your missile weapon.",
+		"description": "This allows you +4 Speed and +1 DX with any missile weapon you are strong enough to use this talent with.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Monk",
+		"iq": "14",
+		"memory": "1+",
+		"corequisite": "Piety 6, Holy Ascetic, granted by PC's god",
+		"description": "The maximum number of memory points that may be spent on this talent is equal to your PY. <br /><br />If you are moving quietly or hiding, people must roll 2 extra dice vs IQ to notice you. <br /><br />If you are in Leather or Cloth armor or no armor, you are –2 DX to be hit. <br /><br />Do +2 damage with all unarmed attacks. <br /><br />For each memory point spent on this talent, reduce distances fallen by 2 meters. <br /><br />For each memory point spent on this talent, you gain a holy power which supports the god's attributes. For example a thief god may give his Monks thieving abilities. A god of farming and husbandry may give his monks the ability to talk to animals, etc.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Mountain Climbing",
+		"iq": "14",
+		"memory": "1+",
+		"corequisite": "Climbing, Geologist, adjDX 14+, Strength 12+",
+		"description": "Hard rock and other dangerous climbing. You may climb at *3 the normal rate or at the normal rate and roll 1 less die while doing it. This talent includes survival skills for high mountains. 'Urban Climbing' is like Mountain Climbing but it requires Architect Builder instead of Geologist.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Pneumatics",
+		"iq": "14",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "If you have Mechanician this talent costs only 0.5 a memory point. The ability to improve air flow thru tunnels by using pressure doors and pressure valves. You can design, build and maintain compressed air devices. <br /><br />This talent is normally learned by Dwarves, for they have compressed air generated by trapping bubbles forced down a tall column (by water and gravity). Some Dwarves communities use steam engines to compress air (which are normally used only in emergencies because of the high fuel cost).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Political Science",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "This talent represents the political savvy gained from systematic study or long experience. <br /><br />This talent gives you a +1 reaction with those who are directly above you or any one below you in a political (or bureaucratic) hierarchy. (GM's, normally you won't roll reactions for people the PC's deal with on an on going basis.  This +1 reaction represents many small decisions and interactions that are made 'correctly' to avoid offending people. If the PC treats their people well they will be liked. If they are obviously politically unreliable their lords won't like them. The GM should consider this reaction adjustment simply improves slightly the reactions of people who have to deal politically with the character. <br /><br />If the GM does not wish to use the above 'Reaction Modifier', the talent only costs one mIQ. Figures with this talent are assumed to have a working knowledge of Machiavelli's 'The Prince'.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ship's Officer",
+		"iq": "14",
+		"memory": "2+",
+		"corequisite": "Master Seaman",
+		"description": "The ability to command small and medium sized vessels on medium & short voyages, respectively. You have sufficient knowledge to repair and maintain any ship. You are familiar with unusual and obscure navel techniques and can instruct crews to carry them out. <br /><br /> Some navies only require Seamanship 2 as a co-requisite. Such officers do fine in normal situations, but they do not know how to handle unusual emergencies. <br /><br />With this talent and 5 years of command experience you are ready to be captain of large ships for long voyages.  Normally captains or commodores (who command flotilla) will have put 4 or more mIQ into this talent.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Si-Jik Style of Fighting",
+		"iq": "14",
+		"memory": "4",
+		"corequisite": "Dexterity 14+, Acting, Judo, Sword 2 (or if not Sword 2, then an equal level of proficiency in any non-missile weapon)",
+		"description": "Cost is 1 point less if you have the ability to use magic.  Normally only used by Goblins but anyone may learn this talent (providing they can find a teacher). Except when dodging, you must be using your sword (or which ever other weapon you are expert with) to gain the benefits of this talent. People with this talent (when not unarmed) are 1 die harder to hit thru any non-rear hex. This includes missile and thrown weapons. It requires a 4vsDX to hit you normally and a 5vsDX if you are Dodging or Defending. If someone tries to jump you in HTH, and successfully makes it in, you get a free attack as you go down at -6 DX. If you succeed in hitting and do sufficient damage to knock down the person jumping you, they fall in your hex and you do not go into HTH after all. You must make a 3vsDX to avoid tripping over them as they fall into your hex. <br /><br />While few people jump Goblins in HTH (it is usually the other way around) when they are fighting each other it is a common strategy. <br /><br />Note that the next talent in this series is at IQ 18 not 16.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Strike Master",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "All of your non-missile attacks do triple damage on a 3 or 4 and double damage on a 5-7. If you use a pick or have Fencing or Knife 2 as well you do triple damage on a 3-5 and double on a 6 or 7 with swords/knives. If you have Pick 3 you do triple damage on a 3 to 6 and double damage on a 7 or 8 when using picks.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Thief Lord",
+		"iq": "14",
+		"memory": "3",
+		"corequisite": "Master Thief, Street Wise & 3+ years as working as a thief full time",
+		"description": "If you have Logistics this talent costs one point less.  As well as giving further improvement in thieving skills, this talent gives background in how to run organized crime rings. <br /><br />A Thief Lord knows the secret phrases of Thieves Argot, he rolls 1 less die for spotting secret hiding places, and rolls one less die to pick locks or to disarm traps. They are master liars: people with Detect Lies must roll 2 extra dice to detect if a Thief Lord is lying. NOTE: This talent does not give further help in picking pockets, that ability has leveled off at Master Thief. <br /><br />You know how to intimidate and motivate thieves in your employ. You get a +1 reaction for dealing with other thieves. You know who to bribe and who to blackmail to (try to) keep the authorities from making trouble.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Thrown Weapons 2",
+		"iq": "14",
+		"memory": "2",
+		"corequisite": "Thrown Weapons",
+		"description": "This talent gives you +3 DX with all thrown weapons, and thrown spells. You do +1 damage with all thrown weapons. It gives you +5 hexes range with thrown weapons or spells (the range of a thrown weapon or spell is equal to the ST of the thrower in hexes). Note that Thrown Weapons is at IQ 8. Note Thrown Weapons 3 is at IQ 20.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Wide Attack/Block",
+		"iq": "14",
+		"memory": "0.5",
+		"corequisite": "Wide Swing, Dexterity 16+",
+		"description": "You may block with your shield (or off hand weapon that allows blocking) to the first side hex on your off hand. If you do so you are at -4 DX for the remainder of the turn. <br /><br />You may attack to the first side hex on you weapon hand side. If you do so you are at -4 DX for the rest of the turn (including that attack). If you are unarmed, or have a two handed weapon, you may attack to either side.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Zarhack Scream",
+		"iq": "14",
+		"memory": "0.5",
+		"corequisite": "Keay",
+		"description": "This talent is normally only taught by orken priests and theologians and only to orks. It seems to have a magical or mystical component to it, but it HAS been known to be learned by non-religious/non-orken people. Normally only one Zarhack Scream can be made per day. <br /><br />(In my campaign this talent will not work in a mana free area.  Other races may gain this as a holy rite, but orken priests can simply learn it as a talent.) <br /><br />You may pay 5 fST and make a terrible battle scream while making a physical attack (roll as per a keay, except that everyone under 50 attributes is affected). For this attack only, you have a +2 charm (which can not be combined with existing charms). If the target of your attack has magical armor or Flesh Spells, those items have a 50% chance of failing to protect for this attack only and they are Stressed. <br /><br />You are completely unaffected by wounds for the turn that the Zarhack Scream is done on (that is you take the wounds, but ignore their effects until next turn).  ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Weapon Talent 5",
+		"iq": "15",
+		"memory": "1",
+		"corequisite": "The appropriate Weapon Talent at level 4 (e.g., to get Bow 5, the corequisite is Bow 4)",
+		"description": "This gives you a +5 speed with that type of weapon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Legend",
+		"iq": "15",
+		"memory": "3",
+		"corequisite": "Champion and Strength 24+",
+		"description": "This reduces damage like Warrior but a total of 5 hits are stopped by all of these talents. <br /><br />OPTIONAL RULE: the first 3 hits that you do take after Warrior series of talents, have finished protecting you, is subdual damage. Thus a Champion (like Conan) bounces back after a fight quicker. These 3 points of subdual is not counted as damage so far as reactions to injuries in concerned. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Merchant's Judgement",
+		"iq": "15",
+		"memory": "3+",
+		"corequisite": "Business Management",
+		"description": "Note this talent only costs 2 memory points if you have Trained Judge of Character. By long experience of watching people bargain for things you can notice almost invisible signs in others body language that will let you know how much they want something. This allows you to gain +10 % more than you normally could with out risking angering someone. Like Business Sense you may try to swindle someone for *3 the true value of the item, (If you run into them again you must make a 5vsIQ or get a -3 reaction roll). If you have Detect Lies this talent gives you +4 IQ when comparing your IQ to the IQ of the person you are checking for lying.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Navigation",
+		"iq": "15",
+		"memory": "0.5 or 1",
+		"corequisite": "None",
+		"description": "This allows you to navigate a boat in dangerous waters or find your way in a desert. It comes in three specialties: Coastal/River, Wilderness, Deep Sea/Desert. Each specialty costs 0.5 a point or you can get all three for 1 point. If you have Mathematics talent you may get all 3 for 0.5 memory points.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Psychic Combat",
+		"iq": "15",
+		"memory": "1+",
+		"corequisite": "None",
+		"description": "In battle of wills, psychic combats, or possession rolls you get +2 IQ for each point spent on this talent.  Humans (& most races) have a limit of 5 levels on this talent. Hobbits and Elves may only take 2 levels of this talent. Orks and other races who's societies are based on dominance and submission, may take 10 levels of this talent.  Demons and other races where Psionics is common may take any number of levels of this talent. <br /><br />Example: if you have spent 3 memory points on this, you get +6 when making these rolls. <br /><br />This is the standard defense for people against mental domination. “Possession rolls” include the Control Person spell and its variants. Note, that most psionic attacks come under the heading of psychic combat.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Public Speaking",
+		"iq": "15",
+		"memory": "1",
+		"corequisite": "Voice",
+		"description": "This is like Voice except it gives you +10% extra range with your voice. Additionally, it assists you in judging and manipulating the emotional state of an audience.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Shifting Attack",
+		"iq": "15",
+		"memory": "3",
+		"corequisite": "Acrobatics, Running, Speed 17+",
+		"description": "This talent only costs 2 points if you have Judo.  When engaged you may shift 2 hexes and take any action for engaged figures. You may move non-adjacent, thus disengaging, from up to two figures during this shift.  Alternately you may move 1 hex and move non-adjacent to any number of figures. <br /><br />People may wish to strike at you as you leave their front hexes. They may do so by taking their option during the movement phase and attacking during movement at -6 DX. (So if they took the shift and attack option and hit at you during the movement phase at the -6 DX they could not move more than 1 hex even if they were unengaged at the start of their movement, and they would have already used their option for the turn.)  <br /><br />For those using my alternate engaging rules,  this does not count as disengaging during movement allowing a free attack. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Spy Master",
+		"iq": "15",
+		"memory": "2+",
+		"corequisite": "Spy, Logistics",
+		"description": "Spy Masters are trained in setting up intelligence organizations.  You are trained in how to use Need to Know rules for security.  You are able to look at organizations and detect weaknesses in security (an IQ roll determined by the GM depending on how subtle the problem is). You are trained in collecting masses of unrelated data, and pulling out useful information from it.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Strategist",
+		"iq": "15",
+		"memory": "2+",
+		"corequisite": "Tactics, 2 years of military experience as an officer",
+		"description": "Basic knowledge of military history, theory and practice.  If the Strategist has Logistics, he or she has the ability to command a large military force in the field. If the Strategist has Ship's Officer, he or she may gain bonuses in naval strategy. <br /><br />If a Strategist is leading a party, the party gets a +2 on all initiative rolls in combat.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Trained Judge of Character",
+		"iq": "15",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "If you have Good Listener this costs 0.5 memory points.   Allows you to make a 5vsIQ to judge the emotional state of someone, if they are hiding it. Use the same modifiers as Detection of Lies. Also used to estimate amounts needed for bribes, the determination of someone, what they feel strongly about & their trustworthiness (number of dice as GM sees fit, but normally a 5+ vs IQ). You get +4 IQ when comparing the IQ's of someone you think is lying (important only if you have Detection of Lies).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Unarmed Combat 4",
+		"iq": "15",
+		"memory": "2",
+		"corequisite": "Unarmed Combat 3, Dexterity 15+",
+		"description": "A higher level of UC mastery. A figure with this ability has a natural eyes behind ability (like the spell) at all times. If he takes the defend option bare handed you must roll 5 dice to hit him. <br /><br />Each UC talent gives you +/-1 die on pins & take downs. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Ward Warping",
+		"iq": "15",
+		"memory": "2",
+		"corequisite": "Thief, ability to use magic",
+		"description": "This talent allows a magical thief to 'twist' the magical spells to allow a thief to defeat magical defenses. With this talent a thief can pick a lock that has the Lock spell cast on it (add one point to the difficulty to the lock for each Lock spell). <br /><br />To defeat other types of magical defense make a X:XvsIQ (the thief's IQ verses the IQ of the magical defense). <br /><br />* Thief makes it and defense fails. Thief gets thru and does not set off defense. Defense remains intact and no one can tell the defense was penetrated. <br />* Thief makes it and defense makes it. Thief gets thru, but defense is triggered. Defense remains intact and casting wizard can tell the defense was tested. <br />* Thief fails and defense fails. Thief does not get thru, but defense is not set off. Casting wizard can tell defense was tested. The defense will remain unless it is a one shot magic item or single action spell. <br />* Thief fails and defense makes it. Thief does not get thru, and defense is set off. Defense remains intact and the casting wizard can tell someone has tested it. <br /><br />This ability only works on magic items or spells that are not being monitored actively by the casting wizard. Possessing this talents is a capital offense with most wizard schools.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Peculiar Weapons 5",
+		"iq": "16",
+		"memory": "1",
+		"corequisite": "The appropriate Peculiar Weapon Talent at level 4 (e.g., to get Whip 5, the corequisite is Whip 4)",
+		"description": "This gives you a +5 speed with that type of weapon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Arms Master",
+		"iq": "16",
+		"memory": "0.5",
+		"corequisite": "Being a warrior for 3+ years",
+		"description": "This talent gives two advantages if you are attacking with a weapon you are trained in. (If you have UC 1+, then this can be used unarmed.) <br /><br />First, you gain critical hits on numbers one higher than normal. (So if with your other talents you get a critical hit on a 6 or less, you will get them on a 7 or less with this talent.) <br /><br />Second, if you do get a critical hit, you may add or subtract up to 2 to the critical hit roll. So you are better at avoiding shield arms and hitting the spots you WANT to hit.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Alchemist",
+		"iq": "16",
+		"memory": "3",
+		"corequisite": "Endaubuman",
+		"description": " Advanced alchemical creations can now be made.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Astronomy/Astrology",
+		"iq": "16",
+		"memory": "1",
+		"corequisite": "Mathematics",
+		"description": "Ability to predict eclipses, conjunctions and 'predict' the future using the stars.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Battle Canny",
+		"iq": "16",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "Fancy battle tricks don't phase you. Talents that force you to roll more dice to hit an enemy, affect you by 1 less die. (This talent does not affect defending or dodging.) Talents that lower your adjDX to hit an enemy, affect you by 1/2 as much (round off in your favor). Keay battle cries & Zarhack screams do not affect you.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Combat Sense 1",
+		"iq": "16",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "When you take the defend & retreat option, you may retreat after only one turn of defending. <br /><br />You attack at -4 DX instead of -6 DX if taking your action during the movement phase of the turn.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Psionics 2",
+		"iq": "16",
+		"memory": "3",
+		"corequisite": "Psionics 1",
+		"description": "Probe transfer mode and other normal psionic disciplines.  See the supplement: Psionics for TFT. Each level of Psionics is 4 IQ higher than the last.",
+		"auto": "false",
+		"wizard": "null"
+	},
+	{
+		"name": "Security Expert",
+		"iq": "16",
+		"memory": "1",
+		"corequisite": "Mechanician and 5 years experience as a guard, spy, thief or assassin",
+		"description": "A security expert is someone trained in subtle traps, locks and alarms in order to defeat thieves, spies and assassins. They also can direct teams of body guards, patrolling guards and gage human security issues. A security expert is known as a 'Warder' or an 'Expert Warder'. <br /><br />If you have a Security Expert advising you and make minor changes to your behavior (security items cost 10% more and you have minor lifestyle changes), then bad guys have a one die penalty on rolls involving security. (And the GM will rule that the 'obvious' breaches in security are noticed and fixed.) <br /><br />If you are willing to make major changes to your life style (security things cost 100% more, at least 5% of your time is 'wasted' on keeping security rules, and you have markedly less privacy), then bad guys have a 2 dice penalty on security rolls. <br /><br />If the Thief, Spy or Assassin has this talent then they get a one die bonus when dealing with hostile security devices and routines. If they can live or work in or near the area they are trying to cause a security breach in (for a month or more), they can get a 2 or 3 dice bonus when they make their attempt. (However this should normally be played out if a PC is involved.) <br /><br />A security expert usually makes about 3 to 5 times what a guard makes, and it is less risky and much more pleasant work. Often it is a 'retirement' job for a guard captain, etc. <br /><br />Someone can get most of the benefits of a security expert (up to the 1 die modifier level) by having one come in and give advice twice a year, but the lord must spend some of his time, enforcing the inconvenient behaviors required. Even so, security tends to degrade over time the longer a business or area is without an expert on site. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Combat Reflexes",
+		"iq": "17",
+		"memory": "4",
+		"corequisite": "Dive Block, Racing, Unarmed Combat 1, Speed 19+",
+		"description": "If you have UC4 this talent costs 3 pts. This gives you an extra action each turn after the retreats part of the turn. After everyone has completed their attacks, including second shot missile attacks, and all retreats are finished, you get a mini turn including rolling for initiative if people on both sides have this talent. The maximum movement is two hexes and you may not take any option that this movement plus your first movement would exceed the limit for. Example, if you moved 3 in your first movement phase and 2 in the second then you would have moved the maximum allowed to do a charge attack in your second option phase (assuming a MA 10). This mini turn is at a -6 DX thruout and if you are able you may fire a missile weapon twice in that time. Lastly if you have damaged someone in your mini turn and taken no damage at all thru out your (whole) turn you may retreat someone at the end of it. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Punch of Death",
+		"iq": "17",
+		"memory": "2",
+		"corequisite": "Karate, Unarmed Combat 3",
+		"description": "You may punch someone in a critical spot (the liver) at a -6 DX. If you successfully hit and do at least 5 pts of damage these special rules may be used. <br /><br />No immediate damage is taken, instead a large bruise will be visible for a few days. The blow causes internal damage and the victim will die in 3-10 days. You may try to control the time by making a 4vsIQ and making your DX roll by at least 3. The GM makes the IQ roll for you and if either of the two conditions are missed the person will die on the wrong day (usually a couple days later than intended). Death occurs suddenly (1 point of damage / 30 seconds) but the victim can be saved by a healing potion taken when the victim otherwise has an adjusted ST of 3 or more. Other forms of magical healing will also save the victim, if they are used when the victim's adj ST is not negative.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Sure Strike",
+		"iq": "17",
+		"memory": "0.5",
+		"corequisite": "Dexterity 15+",
+		"description": "When you make a to hit roll and roll an  auto-miss, roll 1 die.  On a 1 thru 4, the auto-miss does not count (but it may still be a normal miss if your DX is not high enough).  If the to hit roll results in a dropped weapon, there is a 2/3 chance that it is an auto-miss instead.  If the to hit roll results in a broken weapon, there is a 2/3 chance that it is a dropped weapon instead. <br /><br />Fine weapons that have a chance of not breaking because of metal quality, will roll for weapon quality to prevent breakage AFTER this roll (and only if this roll results in a broken weapon).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Unarmed Combat 5",
+		"iq": "17",
+		"memory": "3",
+		"corequisite": "Unarmed Combat 4, Dexterity 16+",
+		"description": "A still higher level of skill. An attacker must roll 4 dice to hit you in normal combat, 6 if you are dodging, and 7 if you are defending. (These defense bonuses apply so long as at least one hand is not holding a weapon.) <br /><br />If a figure with UC5 hits strikes an armed foe bare handed and does more than three hits of damage, then that foe must drop his weapon. <br /><br />Each level of UC talent gives you +/- 1 die on pins or take downs, and you get +15 ST for unarmed shield rushes.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Combat Sense 2",
+		"iq": "18",
+		"memory": "1",
+		"corequisite": "Combat Sense 1",
+		"description": "When you take the defend & aim option, (see New Defending Options) you gain +3 DX per turn of defending (max 2 turns for + 6 DX). You may aim a missile or thrown weapon, or any spell, for 6 turns (for +9 DX).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Expert Civil Engineer",
+		"iq": "18",
+		"memory": "2+",
+		"corequisite": "Architect/Builder, Engineer, Expert Carpenter & Mathematician",
+		"description": "This allows you to reproduce Roman architectural feats, including aqueducts, large bridges, hypocausts, great siphons, sewers, artificial harbors that won't silt up, fine roads, giant temples and other buildings, and many other structures (some of which we are only fully appreciating this century).",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Master Alchemist",
+		"iq": "18",
+		"memory": "2",
+		"corequisite": "Alchemist, Chemic Journeyman",
+		"description": "Powerful alchemical formula may be created.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Quick Learn",
+		"iq": "18",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "You gain an extra study.  You may learn spells and talents in 1/2 the normal amount of time or less. You may forget spells, talents, and studies in six months (instead of a year). <br /><br />(Note, 'skill' means talent or spell in the write up below.) <br /><br />If your IQ is equal to (or no more than 4 higher than) the minimum IQ needed for a skilll, you learn it in 1/2 the regular time.  If your IQ is from 5 higher to twice as high as the minimum needed for the skill you learn it in 1/5 the regular time. If you IQ is from more than double to triple the IQ of the skill you can learn it in 1/10 of the normal time.  If you IQ is more than triple than the skill, then you can learn it in 1/14 of the normal time.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Si-Jikuk Style of Fighting",
+		"iq": "18",
+		"memory": "4",
+		"corequisite": "Si-Jik Style of Fighting, Dexterity 17+",
+		"description": "Like the Si-Jik Style of Fighting but more so. You are 2 dice harder to hit thru your non-rear hexes when using a weapon that you have 2 levels of talents in. <br /><br />If some one jumps you in HTH you are at +3 DX to try to hit them on your free attack and if you hit, you do an extra point of damage.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Combat Breathing",
+		"iq": "19",
+		"memory": "1",
+		"corequisite": "None",
+		"description": "This allows you to fight for 4 times as long with out taking Combat Fatigue damage. (In no armor a person has 60 seconds of combat or running with out fatigue. For each point of negative DX adj your armor gives you, lower this 60 second period by 5 seconds. Thus someone that is strong enough that scalemail only gives them a -2 DX would be able to run & fight in scale for 50 seconds before they take a point of fatigue. If that person had Combat Breathing they could last 200 seconds / fatigue pt.) <br /><br />You will regain a point of fatigue in 1/2 the normal time. This advantage does halve fatigue recovery times of people with biofeedback. <br /><br />Note this time spent fighting counts only the intense part of battle when you are actively trading blows. Troops standing in ranks being shot at by an occasional sniper does not count.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Personal Magnetism",
+		"iq": "19",
+		"memory": "2",
+		"corequisite": "Charisma and both Strength and Dexterity 2 higher than average for your race (or at least at racial maximum)",
+		"description": "This gives you a +1 on all reaction rolls in addition to the Charisma bonus.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Quiet Battle Mind",
+		"iq": "19",
+		"memory": "3",
+		"corequisite": "None",
+		"description": "You get a free attack during your movement phase (This costs 2 movement points) and if this free attack is taken all attacks later in the turn are at -4 DX. Any options taken later in the turn still have normal movement restrictions. <br /><br />You won't be distracted by battle cries, explosions, or other distractions in battle (you will notice them but it won't affect your concentration). <br /><br />If you have Combat Reflexes (and a VERY high speed) you will get 3 options each turn. ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Alchemist Adept",
+		"iq": "20",
+		"memory": "3",
+		"corequisite": "Master Alchemist, Chemist, and (Priest or Scholar)",
+		"description": "The most powerful of alchemical creations can now be made. Note that some Alchemists gain all the needed prerequisites and still do not master all of these processes. A few alchemical processes do not require you to know Chemist, you must hire one to help you. Such easier formulas are noted in the write up for them. ",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
+		"name": "Psionics 3",
+		"iq": "20",
+		"memory": "3",
+		"corequisite": "Psionics 2",
+		"description": "Gives the Full Touch transfer mode plus other powerful psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
+		"auto": "false",
+		"wizard": "null"
+	},
+	{
+		"name": "Thrown Weapons 3",
+		"iq": "20",
+		"memory": "2",
+		"corequisite": "Thrown Weapons 2",
+		"description": "You may throw weapons in any direction, not just in front of you.  Thrown weapons do an additional +1 damage.  Knives and Sha-Ken may be thrown behind you with no penalty, all other weapons are at -5 DX when thrown behind you.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Dance of Death",
+		"iq": "20",
+		"memory": "3",
+		"corequisite": "Dexterity 18+",
+		"description": "Cost is 1 point less if you have both Acrobatics and Physicker. You know a fighting style which emphasizes flowing motion and precision strikes at vitals & weak points in armor. <br /><br />All weapons do +2 damage. All thrown, missile, or regular weapon hits that you make within 6 hexes of you, are critical hits on a 9 or less. All critical hits you make at 1 or 2 hex range, have one added to the dice roll for hit location. Critical hit locations of 6 or 7 are bleeders rather than just 7's.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Psionics 4",
+		"iq": "24",
+		"memory": "3",
+		"corequisite": "Psionics 3",
+		"description": "Gives the Mind Bridge transfer mode plus other powerful psionic disciplines. See the supplement: Psionics for TFT. Each level of Psionics is 4 IQ higher than the last.",
+		"auto": "false",
+		"wizard": "null"
+	},
+	{
+		"name": "Psionics 5",
+		"iq": "28",
+		"memory": "3",
+		"corequisite": "Psionics 4",
+		"description": "Gives the Evil Eye transfer mode plus other powerful psionic disciplines.  See the supplement: Psionics for TFT.",
+		"auto": "false",
+		"wizard": "null"
+	}
+]
