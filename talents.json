@@ -135,6 +135,15 @@
 		"wizard": "double"
 	}, 
 	{
+		"name": "Unarmed Combat 1",
+		"iq": "7",
+		"memory": "1",
+		"corequisite": "Dexterity 12+",
+		"description": "Note, to use this talent a figure must be in no armor, cloth armor, or have leather armor with no negatives. Basic martial arts knowledge, similar to judo, karate, la savate', etc. A figure with this skill does one extra hit of damage when ever he fights with bare hands in regular or HTH combat. When you engage someone in HTH your opponents attack you at -2 DX.  If you take the Enter HTH and Attack option you are not at the normal -4 DX while doing this.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
 		"name": "Warrior",
 		"iq": "7",
 		"memory": "1",
@@ -676,11 +685,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Unarmed Combat 1",
+		"name": "Unarmed Combat 2",
 		"iq": "9",
 		"memory": "1",
-		"corequisite": "Dexterity 12+",
-		"description": "Note, to use this talent a figure must be in no armor, cloth armor, or have leather armor with no negatives. Basic martial arts knowledge, similar to judo, karate, la savate', etc. A figure with this skill does one extra hit of damage when ever he fights with bare hands in regular or HTH combat. When you engage someone in HTH your opponents attack you at -2 DX.  If you take the Enter HTH and Attack option you are not at the normal -4 DX while doing this.",
+		"corequisite": "Unarmed Combat 1, Dexterity 13+",
+		"description": "Like UC1 except that you do 2 extra hits of damage in all bare-handed attack (this is not cumulative with the damage bonus from UC1). You may also shield rush with out a shield to knock someone down. Use shield rush rules. Each level of UC above this one gives you +5 ST for the purpose these shield rush saving throws. <br /><br />If someone tries to enter HTH with you by diving at your legs, you add 1 to the 1 die roll to see if they are able to get into HTH. (This +1 to the roll is cumulative with the bonus for Dive Block and the +1 since they are trying for your legs in the first place.) <br /><br />Like all UC talents this gives you a bonus die when rolling for Take Downs or Pins in HTH (see extra HTH options).",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -1297,11 +1306,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Unarmed Combat 2",
+		"name": "Unarmed Combat 3",
 		"iq": "11",
-		"memory": "1",
-		"corequisite": "Unarmed Combat 1, Dexterity 13+",
-		"description": "Like UC1 except that you do 2 extra hits of damage in all bare-handed attack (this is not cumulative with the damage bonus from UC1). You may also shield rush with out a shield to knock someone down. Use shield rush rules. Each level of UC above this one gives you +5 ST for the purpose these shield rush saving throws. <br /><br />If someone tries to enter HTH with you by diving at your legs, you add 1 to the 1 die roll to see if they are able to get into HTH. (This +1 to the roll is cumulative with the bonus for Dive Block and the +1 since they are trying for your legs in the first place.) <br /><br />Like all UC talents this gives you a bonus die when rolling for Take Downs or Pins in HTH (see extra HTH options).",
+		"memory": "2",
+		"corequisite": "Unarmed Combat 2, Dexterity 14+",
+		"description": "A figure with this ability is a master of martial arts. He does 3 extra hits of damage when he hits bare handed (not cumulative with the bonuses with UC1 and UC2). He may attempt to throw any foe whose ST is less than 3 times his own. <br /><br />To do this you must first hit at -4 DX and then (as part as the same attack) make a X:XvsDX successfully. Each level of UC, allows you +/- 1 die. If you make it the target is thrown into any of your adjacent hexes and takes your normal fist damage. If the contest draws, you do no damage and are standing in HTH (roll normally for take downs if both people don't wish to remain standing). If you loose the contest, you are in HTH as above unless your opponent has UC1,  in this case you fall into any hex adjacent to him (his choice), and you take his fist damage. <br /><br />He may choose the defend option bare handed. <br /><br />Each UC talent gives you a 1 die bonus for Pins and Take Downs in HTH. As explained in UC2, you get +5 ST for making shield rushes without a shield.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -1729,11 +1738,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Unarmed Combat 3",
+		"name": "Unarmed Combat 4",
 		"iq": "13",
 		"memory": "2",
-		"corequisite": "Unarmed Combat 2, Dexterity 14+",
-		"description": "A figure with this ability is a master of martial arts. He does 3 extra hits of damage when he hits bare handed (not cumulative with the bonuses with UC1 and UC2). He may attempt to throw any foe whose ST is less than 3 times his own. <br /><br />To do this you must first hit at -4 DX and then (as part as the same attack) make a X:XvsDX successfully. Each level of UC, allows you +/- 1 die. If you make it the target is thrown into any of your adjacent hexes and takes your normal fist damage. If the contest draws, you do no damage and are standing in HTH (roll normally for take downs if both people don't wish to remain standing). If you loose the contest, you are in HTH as above unless your opponent has UC1,  in this case you fall into any hex adjacent to him (his choice), and you take his fist damage. <br /><br />He may choose the defend option bare handed. <br /><br />Each UC talent gives you a 1 die bonus for Pins and Take Downs in HTH. As explained in UC2, you get +5 ST for making shield rushes without a shield.",
+		"corequisite": "Unarmed Combat 3, Dexterity 15+",
+		"description": "A higher level of UC mastery. A figure with this ability has a natural eyes behind ability (like the spell) at all times. If he takes the defend option bare handed you must roll 5 dice to hit him. <br /><br />Each UC talent gives you +/-1 die on pins & take downs. ",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2044,11 +2053,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Unarmed Combat 4",
+		"name": "Unarmed Combat 5",
 		"iq": "15",
-		"memory": "2",
-		"corequisite": "Unarmed Combat 3, Dexterity 15+",
-		"description": "A higher level of UC mastery. A figure with this ability has a natural eyes behind ability (like the spell) at all times. If he takes the defend option bare handed you must roll 5 dice to hit him. <br /><br />Each UC talent gives you +/-1 die on pins & take downs. ",
+		"memory": "3",
+		"corequisite": "Unarmed Combat 4, Dexterity 16+",
+		"description": "A still higher level of skill. An attacker must roll 4 dice to hit you in normal combat, 6 if you are dodging, and 7 if you are defending. (These defense bonuses apply so long as at least one hand is not holding a weapon.) <br /><br />If a figure with UC5 hits strikes an armed foe bare handed and does more than three hits of damage, then that foe must drop his weapon. <br /><br />Each level of UC talent gives you +/- 1 die on pins or take downs, and you get +15 ST for unarmed shield rushes.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2157,15 +2166,6 @@
 		"memory": "0.5",
 		"corequisite": "Dexterity 15+",
 		"description": "When you make a to hit roll and roll an  auto-miss, roll 1 die.  On a 1 thru 4, the auto-miss does not count (but it may still be a normal miss if your DX is not high enough).  If the to hit roll results in a dropped weapon, there is a 2/3 chance that it is an auto-miss instead.  If the to hit roll results in a broken weapon, there is a 2/3 chance that it is a dropped weapon instead. <br /><br />Fine weapons that have a chance of not breaking because of metal quality, will roll for weapon quality to prevent breakage AFTER this roll (and only if this roll results in a broken weapon).",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
-		"name": "Unarmed Combat 5",
-		"iq": "17",
-		"memory": "3",
-		"corequisite": "Unarmed Combat 4, Dexterity 16+",
-		"description": "A still higher level of skill. An attacker must roll 4 dice to hit you in normal combat, 6 if you are dodging, and 7 if you are defending. (These defense bonuses apply so long as at least one hand is not holding a weapon.) <br /><br />If a figure with UC5 hits strikes an armed foe bare handed and does more than three hits of damage, then that foe must drop his weapon. <br /><br />Each level of UC talent gives you +/- 1 die on pins or take downs, and you get +15 ST for unarmed shield rushes.",
 		"auto": "false",
 		"wizard": "double"
 	},
