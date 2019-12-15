@@ -1184,7 +1184,7 @@
 		"iq": "11",
 		"memory": "2",
 		"corequisite": "None",
-		"description": "When you defend the enemy must roll one extra die to hit you.  This stacks with other bonuses (such as the bonus for defending with Unarmed Combat 4, for example).<br /><br />	When you take the defend & retreat option, you may retreat after only one turn of defending.",
+		"description": "When you defend, the enemy must roll one extra die to hit you. This stacks with other bonuses, such as the bonus for defending with Unarmed Combat 4.<br /><br />When you take the defend and retreat option, you may retreat after only one turn of defending.",
 		"auto": "false",
 		"wizard": "single"
 	},
@@ -1373,7 +1373,7 @@
 		"iq": "12",
 		"memory": "0.5",
 		"corequisite": "None",
-		"description": "You understand and can use camouflage to hide things, and or make them harder to hit.  If you want your observation post to not be seen by flying troops on griffons, this talent would be used to hide it.  Note that everyone thinks that they understand camouflage, but there is considerably more to it than most people think.  It usually requires time and effort, with proper materials ahead of time, to use this talent.<br /><br />	If you are able to camouflage something, you get a +1 die bonus in stealth contests to find it.  (See Stealth in TFT for more info.)  ",
+		"description": "You understand and can use camouflage to hide things, and or make them harder to hit.  If you want your observation post to not be seen by flying troops on griffons, this talent would be used to hide it.  Note that everyone thinks that they understand camouflage, but there is considerably more to it than most people think. It usually requires time and effort, with proper materials ahead of time, to use this talent.<br /><br />If you are able to camouflage something, you get a +1 die bonus in stealth contests to find it. (See Stealth in TFT for more info.)",
 		"auto": "false",
 		"wizard": "double"
 	},
