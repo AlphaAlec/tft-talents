@@ -1,6 +1,6 @@
 [
 	{
-		"name": "All Weapons",
+		"name": "All Weapons 1",
 		"iq": "7",
 		"memory": "5",
 		"corequisite": "Axe/Mace, Bow, Crossbow, Knife, Pole Weapons, Shield, Sling, Sword (prerequisite)",
@@ -85,7 +85,7 @@
 		"iq": "7",
 		"memory": "0.5",
 		"corequisite": "None",
-		"description": "This is a battle scream used to try to distract opponents. All enemies (and friends too if they are not expecting it) must make a 3vsIQ or be at -3 DX for 2 turns. This can only be used at a start of a battle.  Figures with Tactics, UC3 or 45+ attributes are immune.",
+		"description": "This is a battle scream used to try to distract opponents. All enemies (and friends too if they are not expecting it) must make a 3vsIQ or be at -3 DX for 2 turns. Figures with 37 to 39 attributes only get a –1 DX for 2 turns.  Figures with Tactics, UC3 or 40+ attributes are immune.",
 		"auto": "false",
 		"wizard": "double"
 	}, 
@@ -288,15 +288,6 @@
 		"wizard": "double"
 	}, 
 	{
-		"name": "Farming",
-		"iq": "8",
-		"memory": "1",
-		"corequisite": "None",
-		"description": "Basic knowledge of farming, crops, weeds, etc.",
-		"auto": "false",
-		"wizard": "double"
-	}, 
-	{
 		"name": "Flying",
 		"iq": "8",
 		"memory": "1",
@@ -379,10 +370,19 @@
 		"wizard": "double"
 	},
 	{
+		"name": "All Weapons 2",
+		"iq": "9",
+		"memory": "5",
+		"corequisite": "Dexterity 12+",
+		"description": "Includes Axe/Mace 2, Bow 2, Crossbow 2, Knife 2, Pole Weapons 2, Shield 2, Sling 2, Sword 2.  You know the second level of ability for all basic weapons.  Optional: You need at least one year's experience as a fighter to learn this.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
 		"name": "Ax/Mace 2",
 		"iq": "9",
 		"memory": "1",
-		"corequisite": "Ax/Mace 1, Strength 12+, adjusted Dexterity 10+",
+		"corequisite": "Ax/Mace 1, adjusted Dexterity 10+",
 		"description": "This allows you to use the following advantages: <br />(1) Morningstars do +1 damage and may ignore shield's defences unless the shield user makes a 5vsDX. (They swing around the shield.) <br />(2) Hammers and Maces do +1 damage and a minimum of one point of damage after armor, providing at least 5 points of damage is rolled (SOME crushing damage gets thru, even magic armor) <br />(3) Ax's and Picks do +2 damage.",
 		"auto": "false",
 		"wizard": "double"
@@ -409,17 +409,17 @@
 		"name": "Knife 2",
 		"iq": "9",
 		"memory": "2",
-		"corequisite": "Knife 1, Thrown Weapons",
-		"description": "May strike or throw daggers and single sha-ken as tho you had fencing, i.e. on a hit of a 3-4 you do triple damage, on a 5-7 you do double damage. You have a +2 DX when blocking with Main Gauches.",
+		"corequisite": "Knife 1",
+		"description": "You do +1 damage with knives.  When someone jumps you into HTH, you draw a knife on a 2, 3 or 4 (instead of just a 3 or 4) when you make the “entering HTH defense roll”. You have a +2 DX when blocking with Main Gauches",
 		"auto": "false",
 		"wizard": "double"
 	}, 
 	{
 		"name": "Pole Weapons 2",
 		"iq": "9",
-		"memory": "0.5",
+		"memory": "1",
 		"corequisite": "Pole Weapons 1",
-		"description": "This talent allows you to be part of spear walls and other formations of pikes. The two weapons generally used are 4-6 m spears and pikes. Other pole weapons may be used but heavy weapons will tire the troops more quickly, and shorter weapons will not allow as many ranks of spear men to attack. <br /><br /A person with this talent may ignore friendly troops in front of him when doing a jab attack (thus the spears may pass thru occupied hexes). A fighter in the second row or further back from the front of such a formation must have his spear facing in the same direction as those people around him and can not change his facing or the direction of the spear with out the following procedure being followed. First he must raise the spear to vertical, and change his facing (one turn). Then he lowers his spear (second turn). If he wishes to attack on the turn the spear is lowered the is at -4 DX. Note that the longer spears still do normal damage. <br /><br />While in formation the -4 DX for having a person in your rear hex may be ignored. The -6 DX for having a wall behind you still applies but if the spear is entirely choked out this would not apply.   Lastly pole weapons that are jabbing at 3, 4 & 5 hexes range do -1, -2, and -3 pts of damage respectively. Jabbing spears may not charge attack (and thus do *2 damage) unless the enemy virtually throws themselves onto the spear wall after having closed the distance by at least 5 hexes that turn.",
+		"description": "Pole Weapons do +1 damage.  On the roll to generate a critical hit, add 2 to that roll.",
 		"auto": "false",
 		"wizard": "double"
 	}, 
@@ -427,7 +427,7 @@
 		"name": "Shield 2",
 		"iq": "9",
 		"memory": "2",
-		"corequisite": "Shield 1, Strength 4 over the minimum Strength of your shield",
+		"corequisite": "Shield 1",
 		"description": "Your ready shield will now stop -2 extra hits. If your shield is spiked it will do +2 damage. When you are shield rushing with this talent you have +3 ST for calculating who is stronger. Note: if someone with Ax / Mace 2 and a morningstar hits you, the morningstar still ignores your shield's protection unless you can make the 5vsDX roll. ",
 		"auto": "false",
 		"wizard": "double"
@@ -435,7 +435,7 @@
 	{
 		"name": "Sling 2",
 		"iq": "9",
-		"memory": "1",
+		"memory": "2",
 		"corequisite": "Sling 1, Dexterity 12+",
 		"description": "Slings do +2 damage. On the roll to generate the location of a critical hit, add 2 to the roll.",
 		"auto": "false",
@@ -604,10 +604,19 @@
 		"wizard": "double"
 	},
 	{
+		"name": "Formation Pole Weapons",
+		"iq": "9",
+		"memory": "0.5",
+		"corequisite": "Pole Weapons 1",
+		"description": "This talent allows you to be part of spear walls and other formations of pikes. The two weapons generally used are 4-6 m spears and pikes. Other pole weapons may be used but heavy weapons will tire the troops more quickly, and shorter weapons will not allow as many ranks of spear men to attack. <br /><br /A person with this talent may ignore friendly troops in front of him when doing a jab attack (thus the spears may pass thru occupied hexes). A fighter in the second row or further back from the front of such a formation must have his spear facing in the same direction as those people around him and can not change his facing or the direction of the spear with out the following procedure being followed. First he must raise the spear to vertical, and change his facing (one turn). Then he lowers his spear (second turn). If he wishes to attack on the turn the spear is lowered the is at -4 DX. Note that the longer spears still do normal damage. <br /><br />While in formation the -4 DX for having a person in your rear hex may be ignored. The -6 DX for having a wall behind you still applies but if the spear is entirely choked out this would not apply.   Lastly pole weapons that are jabbing at 3, 4 & 5 hexes range do -1, -2, and -3 pts of damage respectively. Jabbing spears may not charge attack (and thus do *2 damage) unless the enemy virtually throws themselves onto the spear wall after having closed the distance by at least 5 hexes that turn.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
+	{
 		"name": "Ghosting",
 		"iq": "9",
 		"memory": "0.5",
-		"corequisite": "Climbing, Running",
+		"corequisite": "Running",
 		"description": "This talent represents expertise in moving efficiently in urban environments. There are 3 advantages given to people who have this talent.  First they may move thru crowds and be slowed by one less movement point.  Also they tend to cause less disturbance since they 'ghost' thru peoples personal space rather than shoving them aside. If the person has climbing this allows them to move along roof tops with one less movement penalty (and it will occasionally allow a bonus to climbing buildings). Lastly, if a city has sewers or tunnels, the person gets one less movement penalty moving thru them. <br /><br />This talent is normally only taught by the thieves guild.",
 		"auto": "false",
 		"wizard": "double"
@@ -643,7 +652,7 @@
 		"name": "Racing",
 		"iq": "9",
 		"memory": "3",
-		"corequisite": "Running, Strength 12+",
+		"corequisite": "Running, Fatigue Strength 12+",
 		"description": "This only costs 2 memory points if your ST is 8 over the average for your race. Gives you +2 MA in leather armor or less. You may double the distance that you may travel in long distance running for a given amount of fST before you are forced back to a walk.",
 		"auto": "false",
 		"wizard": "double"
@@ -679,7 +688,7 @@
 		"name": "Sleight of Hand",
 		"iq": "9",
 		"memory": "1",
-		"corequisite": "adjDX 13+",
+		"corequisite": "adjDX 12+",
 		"description": "No gauntlets allowed. You can make small hand held objects 'magically' disappear on a 3vsDX. Other uses for this talent can no doubt be found. Observers require a 5vsIQ to see where the object has gone. (Even higher number of dice will be needed to see where the item has gone if you can carefully stage the Sleight of Hand and control the angles your victims can see you at.)",
 		"auto": "false",
 		"wizard": "double"
@@ -707,7 +716,7 @@
 		"iq": "9",
 		"memory": "0.5",
 		"corequisite": "None",
-		"description": "Beekeeper, Boat builder (See Expert Carpenter at IQ 13 to build ships), Brick maker, Butcher, Chandler, Culture (an alien culture, your own is free), Dancing, Draper, Farrier, Fishing (sport), Gardener (including garden herbs), Haberdasher, Librarian, Papyrus maker, Parchment maker, Scribe(preq Literacy), Shorthand (preq Literacy).",
+		"description": "Beekeeper, Boat builder (See Expert Carpenter at IQ 13 to build ships), Bookkeeping (req. Literacy), Brick maker, Butcher, Chandler, Culture (an alien culture, your own is free), Dancing, Draper, Farrier, Fishing (sport), Gardener (including garden herbs), Haberdasher, Librarian, Papyrus maker, Parchment maker, Scribe(preq Literacy), Shorthand (preq Literacy).",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -716,7 +725,7 @@
 		"iq": "9",
 		"memory": "1",
 		"corequisite": "None",
-		"description": "Baker, Blacksmith, Carpenter, Cook, Cooper, Embalmer, Fisherman, Geologist, Hunting, Leather worker, Mason, Miner, Paper maker, Potter, Seamstress/Tailor, Storyteller, Tanner, Teacher, Tinker, Wainwright, Weather Sense (requires 3 & 4vsIQ for good weather predictions), and Woodcutter (makes wood cuttings: blocks of wood that are stamped on ink to make pictures when pressed against paper).",
+		"description": "Baker, Blacksmith, Carpenter, Cook, Cooper, Embalmer, Farming, Fisherman, Geologist, Hunting, Leather worker, Mason, Miner, Paper maker, Potter, Seamstress/Tailor, Storyteller, Tanner, Teacher, Tinker, Wainwright, Weather Sense (requires 3 & 4vsIQ for good weather predictions), and Woodcutter (makes wood cuttings: blocks of wood that are stamped on ink to make pictures when pressed against paper).",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -788,7 +797,7 @@
 		"iq": "10",
 		"memory": "2",
 		"corequisite": "Sword, adjDX 14+",
-		"description": "This costs 1 pt if you have Knife 2. Ability to use a sword well. On a to hit roll of 3-4 you do *3 damage, on a to hit roll of 5-7 you do double damage.",
+		"description": "This costs 1 pt if you have Knife 2. Ability to use a sword or knife well. On a to hit roll of 3-4 you do *3 damage, on a to hit roll of 5-7 you do double damage.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -842,7 +851,7 @@
 		"iq": "10",
 		"memory": "2",
 		"corequisite": "None",
-		"description": "A high degree of skill with whatever missile weapons the figure has the talent for, attained by constant practice. May also be used with missile spells which the figure knows. This talent gives you a +3 DX with all missile weapons (and missile spells). If you aim (with no bonus DX) for at least one turn you may fire at very long range with lower DX penalties (see A.M. page 25).",
+		"description": "A high degree of skill with whatever missile weapons the figure has the talent for, attained by constant practice. May also be used with missile spells which the figure knows. This talent gives you a +3 DX with all missile weapons (and missile spells).<br /><br /> If you aim (with no bonus DX) for at least one turn you may fire at very long range with lower DX penalties (see A.M. page 25).<br /><br />Non-rifled guns do not gain any bonus for this talent.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -886,7 +895,7 @@
 		"name": "Sex Proficiency",
 		"iq": "10",
 		"memory": "1",
-		"corequisite": "Sex Appeal, Dexterity 11+",
+		"corequisite": "Sex Appeal",
 		"description": "Long sexual experience. The advantages of this skill are up to the GM but they should be most useful with inexperienced or unsatisfied partners.",
 		"auto": "false",
 		"wizard": "double"
@@ -928,11 +937,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Thrown Spells 1",
+		"name": "Thrown Spells",
 		"iq": "10",
 		"memory": "2",
 		"corequisite": "None",
-		"description": "This allows wizards to cast thrown spells with +3 adjDX.  You also get 5 extra hexes added to your maximum range with thrown spells. (Normally the range of a thrown spell is equal to your ST.)",
+		"description": "This allows wizards to cast thrown spells with +5 adjDX which is only good for reducing range penalties.  You also get 5 extra hexes added to your maximum range with thrown spells.  (Normally the range of a thrown spell is equal to your ST.)",
 		"auto": "false",
 		"wizard": "single"
 	},
@@ -958,11 +967,20 @@
 		"name": "Wide Defend",
 		"iq": "10",
 		"memory": "0.5",
-		"corequisite": "Dexterity 12+",
+		"corequisite": "None",
 		"description": "You are at -4 DX for the rest of the turn and may defend to your sides one hex further than normal. So for a normal human you can use the Defend option to protect your side hexes. Multi-hex figures with multiple side hexes can defend only the first side hex (on each side) adjacent to the front hexes. ",
 		"auto": "false",
 		"wizard": "double"
 	},
+	{
+		"name": "All Weapons 3",
+		"iq": "11",
+		"memory": "5",
+		"corequisite": "Dexterity 14+",
+		"description": "Includes Axe 3, Bow 3, Crossbow 3, Knife 3, Mace/Hammer 3, Morningstar 3, Pick 3, Pole Weapons 3, Shield 3, Sling 3, Sword 3.  You know the second level of ability for all basic weapons.  Optional: You need at least one year's experience as a fighter to learn this.",
+		"auto": "false",
+		"wizard": "double"
+	}, 
 	{
 		"name": "Ax 3",
 		"iq": "11",
@@ -976,7 +994,7 @@
 		"name": "Bow 3",
 		"iq": "11",
 		"memory": "1",
-		"corequisite": "Bow 2, Dexterity 15+",
+		"corequisite": "Bow 2, Dexterity 14+",
 		"description": "Your bows get +1 on critical hit locations. You may fire at double and triple vital hit locations at double normal range for those locations (now 30 hexes for double damage, and 20 hexes for triple damage).",
 		"auto": "false",
 		"wizard": "double"
@@ -1003,7 +1021,7 @@
 		"name": "Mace/Hammer 3",
 		"iq": "11",
 		"memory": "1",
-		"corequisite": "Ax/Mace 2, Strength 15+",
+		"corequisite": "Ax/Mace 2",
 		"description": "Blows to the head will cause a knockout with 3 pts of damage,  and the -3 DX on 2 pts exactly.  Soft armor (Cloth, Leather, Chain) stops 1 point less damage against your attacks. Clubs do +1 damage.",
 		"auto": "false",
 		"wizard": "double"
@@ -1039,7 +1057,7 @@
 		"name": "Shield 3",
 		"iq": "11",
 		"memory": "2",
-		"corequisite": "Shield 2, adjDX 16+",
+		"corequisite": "Shield 2, adjDX 14+",
 		"description": "If you have a shield ready and you are attacked thru one of your front hexes with a non-missile weapon, the attacker is at a -3 DX adjustment.  You may hook the shields of enemies in your front hexes if their shield talents are lower than yours. To do so requires you to make a to hit roll at a -4 DX.  If successful their shield does not protect them from your attack (which must be at -4 DX as well).",
 		"auto": "false",
 		"wizard": "double"
@@ -1057,7 +1075,7 @@
 		"name": "Sword 3",
 		"iq": "11",
 		"memory": "1",
-		"corequisite": "Sword 2, adjDX 15+",
+		"corequisite": "Sword 2, adjDX 14+",
 		"description": "This allows swords to do an extra +1 damage.",
 		"auto": "false",
 		"wizard": "double"
@@ -1093,8 +1111,8 @@
 		"name": "Block Missiles",
 		"iq": "11",
 		"memory": "1",
-		"corequisite": "Shield, Speed 18+",
-		"description": "This talent allow you to block missile weapons and visible missile spells with your shield.  The shield is angled so that it will stop triple its normal number of hits. Blocking arrows is an action, but you can move up to half your movement and dodge. To block a missile is a 3vsDX with each subsequent missile having a cumulative -4 DX. <br /><br />This talent does not triple the bonus from Shield 2, or other talents that improve shield's defence.",
+		"corequisite": "Shield, Speed 16+",
+		"description": "This talent allow you to block missile weapons and visible missile spells with your shield.  The shield is angled so that it will stop triple its normal number of hits.  Blocking arrows is an action, but you can move up to half your movement and dodge or defend.  To block a missile is a 3vsDX with each subsequent missile having a cumulative -4 DX.<br /><br />This talent does not triple the bonus from Shield 2, or other talents that improve shield's defence.",
 		"auto": "false",
 		"wizard": "double"
 	}, 
@@ -1111,7 +1129,7 @@
 		"name": "Campaigner",
 		"iq": "11",
 		"memory": "2",
-		"corequisite": "Veteran, Strength 17+",
+		"corequisite": "Veteran, Strength 18+",
 		"description": "Like Veteran it allows you to take 1 less point of damage by moving with the blow. (-3 hits with Warrior and Veteran.) <br /><br />OPTIONAL RULE: The first point of damage that you actually take is treated as subdual damage and not real damage, if you can make a 4vsDX as you take the wound. (Before negatives to DX caused by that wound.)  This one point of subdual is not counted as damage so far as reactions to injuries in concerned.",
 		"auto": "false",
 		"wizard": "double"
@@ -1161,6 +1179,15 @@
 		"auto": "false",
 		"wizard": "single"
 	}, 
+	{
+		"name": "Defending Master 1",
+		"iq": "11",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "When you defend the enemy must roll one extra die to hit you.  This stacks with other bonuses (such as the bonus for defending with Unarmed Combat 4, for example).<br /><br />	When you take the defend & retreat option, you may retreat after only one turn of defending.",
+		"auto": "false",
+		"wizard": "single"
+	},
 	{
 		"name": "Detection of Lies",
 		"iq": "11",
@@ -1342,6 +1369,15 @@
 		"wizard": "double"
 	},
 	{
+		"name": "Camouflage",
+		"iq": "12",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "You understand and can use camouflage to hide things, and or make them harder to hit.  If you want your observation post to not be seen by flying troops on griffons, this talent would be used to hide it.  Note that everyone thinks that they understand camouflage, but there is considerably more to it than most people think.  It usually requires time and effort, with proper materials ahead of time, to use this talent.<br /><br />	If you are able to camouflage something, you get a +1 die bonus in stealth contests to find it.  (See Stealth in TFT for more info.)  ",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
 		"name": "Criminology",
 		"iq": "12",
 		"memory": "1",
@@ -1418,7 +1454,7 @@
 		"iq": "12",
 		"memory": "3",
 		"corequisite": "Thrown Spells",
-		"description": "This gives the wizard an additional +3 DX with all thrown spells. The maximum range of thrown spells is now 10 more than the wizard's ST in hexes.",
+		"description": "Thrown spells now cost 1 less fST to cast, (down to a minimum of 1 fST). The maximum range of thrown spells is now 10 more than the wizard's ST in hexes.",
 		"auto": "false",
 		"wizard": "single"
 	},
@@ -1513,15 +1549,6 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Psionics 1",
-		"iq": "12",
-		"memory": "3",
-		"corequisite": "None",
-		"description": "Trance Touch transfer mode and other basic psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
-		"auto": "false",
-		"wizard": "null"
-	},
-	{
 		"name": "Trained Peripheral Vision",
 		"iq": "12",
 		"memory": "2",
@@ -1534,7 +1561,7 @@
 		"name": "Wide Swing",
 		"iq": "12",
 		"memory": "0.5",
-		"corequisite": "Wide Swing, Dexterity 14+",
+		"corequisite": "Wide Swing, Dexterity 12+",
 		"description": "You may do sweeping blows to the hexes one hex beyond the hexes you can normally reach (for a normal human, the side hexes).  Multi-hex figures with multiple side hexes may attack into the first side hex on each side. <br /><br />If the sweeping blow goes into the side (or rear if you can reach that far) you are at -4 DX until the end of the turn. <br /><br />Example, Tarina has the Eyes Behind magic item so she has 5 front hexes, and one side hex. Using this talent she may attack into any hex (including the hex directly behind her). If she does a sweeping blow thru 4 adjacent hexes then she is at -12 DX for all attacks (because of a 4 hex sweeping blow), with an additional -4 DX on all attacks if the blow carries into her side (the hex directly behind her). <br /><br />(If she had Multiple Swing (which halves the DX penalty) she would be at -6 DX and an extra -4 DX if the blow went into her rear.)",
 		"auto": "false",
 		"wizard": "double"
@@ -1579,7 +1606,7 @@
 		"name": "Business Management",
 		"iq": "13",
 		"memory": "2+",
-		"corequisite": "Business Sense",
+		"corequisite": "Business Sense (includes Bookkeeping)",
 		"description": "This gives you a +2 reaction dealing with employees. It also teaches you basic accounting and how to make the paper flow on time. If someone is trying to cheat you by cooking the books, you may make a X:XvsIQ roll to detect the theft.",
 		"auto": "false",
 		"wizard": "double"
@@ -1603,10 +1630,19 @@
 		"wizard": "double"
 	},
 	{
+		"name": "Defending Master 2",
+		"iq": "11",
+		"memory": "3",
+		"corequisite": "None",
+		"description": "With Defending Master 1, when you defend they must roll an extra die to hit you.  With this talent, if you are defending and someone tries to hit you, AND misses by more than 4, then you may attack them at –4 DX. This is a free counter-attack. You may get only one such free counter-attack per turn, so you may pass an early opportunity in the hopes of hitting someone else.<br /><br />Exception: If your to-hit roll in this free counter-attack is a critical success, you haven't used up your one free counter-attack that turn, and thus, could possibly generate more such attacks. ",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
 		"name": "Dodge Missile",
 		"iq": "13",
 		"memory": "2",
-		"corequisite": "Alertness, Speed 20+",
+		"corequisite": "Alertness, Speed 17+",
 		"description": "Allows you to dodge 1 arrow per turn or 2 arrows / turn if you have moved one third or less of your total movement.  This is not an option, and may be done along with what ever else you do in your turn.  If you take the dodge option, the enemy must still roll 4 dice to hit you, and you may attempt to dodge 1 extra arrow (if any succeed in hitting you).  You only need to dodge arrows that hit you, no roll is needed for ones that will miss. <br /><br />To dodge an arrow requires a 4vs Speed on the first arrow and -4 DX more on each additional one. If you are dodging only thrown weapons you may dodge one extra thrown weapon per turn (Thus if you are taking the Dodging option you may dodge a maximum of 4 thrown weapons per turn. The second would be at -4 DX and the third would be at -8 DX, the forth at -12). <br /><br />(Note, this is a rare example of a saving throw being made vs an attribute + superscript.) <br /><br />This talent may be used to dodge visible missile spells.",
 		"auto": "false",
 		"wizard": "double"
@@ -1769,7 +1805,7 @@
 		"iq": "14",
 		"memory": "3",
 		"corequisite": "Improved Thrown Spells",
-		"description": "If you have Thrown Weapons, this talent costs only 1 memory point. This gives the wizard an additional +2 DX with all thrown spells. Your maximum range is now your ST+ 15 hexes. A roll of a 16 will not cause a magical backlash with a thrown spell.",
+		"description": "This allows the wizard to double the duration of Thrown Spells before maintenance must be paid.  (i.e. If a spell requires 1fST + 1 per turn, with this talent it would cost 1fST + 1 per two turns.)",
 		"auto": "false",
 		"wizard": "single"
 	},
@@ -1855,15 +1891,6 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Missile Weapons 3",
-		"iq": "14",
-		"memory": "3",
-		"corequisite": "Missile Weapons 2, Power 4 over the minimum ST for your missile weapon.",
-		"description": "This allows you +4 Speed and +1 DX with any missile weapon you are strong enough to use this talent with.",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
 		"name": "Monk",
 		"iq": "14",
 		"memory": "1+",
@@ -1876,7 +1903,7 @@
 		"name": "Mountain Climbing",
 		"iq": "14",
 		"memory": "1+",
-		"corequisite": "Climbing, Geologist, adjDX 14+, Strength 12+",
+		"corequisite": "Climbing, Strength 2+ above average for your race (or at racial maximum)",
 		"description": "Hard rock and other dangerous climbing. You may climb at *3 the normal rate or at the normal rate and roll 1 less die while doing it. This talent includes survival skills for high mountains. 'Urban Climbing' is like Mountain Climbing but it requires Architect Builder instead of Geologist.",
 		"auto": "false",
 		"wizard": "double"
@@ -1898,6 +1925,15 @@
 		"description": "This talent represents the political savvy gained from systematic study or long experience. <br /><br />This talent gives you a +1 reaction with those who are directly above you or any one below you in a political (or bureaucratic) hierarchy. (GM's, normally you won't roll reactions for people the PC's deal with on an on going basis.  This +1 reaction represents many small decisions and interactions that are made 'correctly' to avoid offending people. If the PC treats their people well they will be liked. If they are obviously politically unreliable their lords won't like them. The GM should consider this reaction adjustment simply improves slightly the reactions of people who have to deal politically with the character. <br /><br />If the GM does not wish to use the above 'Reaction Modifier', the talent only costs one mIQ. Figures with this talent are assumed to have a working knowledge of Machiavelli's 'The Prince'.",
 		"auto": "false",
 		"wizard": "double"
+	},
+	{
+		"name": "Psionics 1",
+		"iq": "14",
+		"memory": "3",
+		"corequisite": "None",
+		"description": "Trance Touch transfer mode and other basic psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
+		"auto": "false",
+		"wizard": "null"
 	},
 	{
 		"name": "Ship's Officer",
@@ -1948,7 +1984,7 @@
 		"name": "Wide Attack/Block",
 		"iq": "14",
 		"memory": "0.5",
-		"corequisite": "Wide Swing, Dexterity 16+",
+		"corequisite": "Wide Swing, Dexterity 14+",
 		"description": "You may block with your shield (or off hand weapon that allows blocking) to the first side hex on your off hand. If you do so you are at -4 DX for the remainder of the turn. <br /><br />You may attack to the first side hex on you weapon hand side. If you do so you are at -4 DX for the rest of the turn (including that attack). If you are unarmed, or have a two handed weapon, you may attack to either side.",
 		"auto": "false",
 		"wizard": "double"
@@ -1967,7 +2003,16 @@
 		"iq": "15",
 		"memory": "1",
 		"corequisite": "The appropriate Weapon Talent at level 4 (e.g., to get Bow 5, the corequisite is Bow 4)",
-		"description": "This gives you a +5 speed with that type of weapon.",
+		"description": "This gives you a +3 speed with that type of weapon.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
+		"name": "Combat Breathing",
+		"iq": "15",
+		"memory": "0.5",
+		"corequisite": "None",
+		"description": "This allows you to fight for 4 times as long with out taking Combat Fatigue damage. (In no armor a person has 60 seconds of combat or running with out fatigue. For each point of negative DX adj your armor gives you, lower this 60 second period by 5 seconds. Thus someone that is strong enough that scalemail only gives them a -2 DX would be able to run & fight in scale for 50 seconds before they take a point of fatigue. If that person had Combat Breathing they could last 200 seconds / fatigue pt.) <br /><br />You will regain a point of fatigue in 1/2 the normal time. This advantage does halve fatigue recovery times of people with biofeedback. <br /><br />Note this time spent fighting counts only the intense part of battle when you are actively trading blows. Troops standing in ranks being shot at by an occasional sniper does not count.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -1983,7 +2028,7 @@
 	{
 		"name": "Merchant's Judgement",
 		"iq": "15",
-		"memory": "3+",
+		"memory": "2+",
 		"corequisite": "Business Management",
 		"description": "Note this talent only costs 2 memory points if you have Trained Judge of Character. By long experience of watching people bargain for things you can notice almost invisible signs in others body language that will let you know how much they want something. This allows you to gain +10 % more than you normally could with out risking angering someone. Like Business Sense you may try to swindle someone for *3 the true value of the item, (If you run into them again you must make a 5vsIQ or get a -3 reaction roll). If you have Detect Lies this talent gives you +4 IQ when comparing your IQ to the IQ of the person you are checking for lying.",
 		"auto": "false",
@@ -2017,11 +2062,20 @@
 		"wizard": "double"
 	},
 	{
+		"name": "Quick Learn",
+		"iq": "15",
+		"memory": "2",
+		"corequisite": "None",
+		"description": "You gain an extra study.  You may learn spells and talents in 1/2 the normal amount of time or less. You may forget spells, talents, and studies in six months (instead of a year). <br /><br />(Note, 'skill' means talent or spell in the write up below.) <br /><br />If your IQ is equal to (or no more than 4 higher than) the minimum IQ needed for a skilll, you learn it in 1/2 the regular time.  If your IQ is from 5 higher to twice as high as the minimum needed for the skill you learn it in 1/5 the regular time. If you IQ is from more than double to triple the IQ of the skill you can learn it in 1/10 of the normal time.  If you IQ is more than triple than the skill, then you can learn it in 1/14 of the normal time.",
+		"auto": "false",
+		"wizard": "single"
+	},
+	{
 		"name": "Shifting Attack",
 		"iq": "15",
 		"memory": "3",
 		"corequisite": "Acrobatics, Running, Speed 17+",
-		"description": "This talent only costs 2 points if you have Judo.  When engaged you may shift 2 hexes and take any action for engaged figures. You may move non-adjacent, thus disengaging, from up to two figures during this shift.  Alternately you may move 1 hex and move non-adjacent to any number of figures. <br /><br />People may wish to strike at you as you leave their front hexes. They may do so by taking their option during the movement phase and attacking during movement at -6 DX. (So if they took the shift and attack option and hit at you during the movement phase at the -6 DX they could not move more than 1 hex even if they were unengaged at the start of their movement, and they would have already used their option for the turn.)  <br /><br />For those using my alternate engaging rules,  this does not count as disengaging during movement allowing a free attack. ",
+		"description": "When engaged you may shift 2 hexes and take any action for engaged figures. You may move non-adjacent, thus disengaging, from up to two figures during this shift.  Alternately you may move 1 hex and move non-adjacent to any number of figures. <br /><br />People may wish to strike at you as you leave their front hexes. They may do so by taking their option during the movement phase and attacking during movement at -6 DX. (So if they took the shift and attack option and hit at you during the movement phase at the -6 DX they could not move more than 1 hex even if they were unengaged at the start of their movement, and they would have already used their option for the turn.)  <br /><br />For those using my alternate engaging rules,  this does not count as disengaging during movement allowing a free attack. ",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2075,7 +2129,7 @@
 		"iq": "16",
 		"memory": "1",
 		"corequisite": "The appropriate Peculiar Weapon Talent at level 4 (e.g., to get Whip 5, the corequisite is Whip 4)",
-		"description": "This gives you a +5 speed with that type of weapon.",
+		"description": "This gives you a +3 speed with that type of weapon.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2116,15 +2170,6 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Combat Sense 1",
-		"iq": "16",
-		"memory": "1",
-		"corequisite": "None",
-		"description": "When you take the defend & retreat option, you may retreat after only one turn of defending. <br /><br />You attack at -4 DX instead of -6 DX if taking your action during the movement phase of the turn.",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
 		"name": "Psionics 2",
 		"iq": "16",
 		"memory": "3",
@@ -2143,11 +2188,11 @@
 		"wizard": "double"
 	},
 	{
-		"name": "Combat Reflexes",
+		"name": "Personal Magnetism",
 		"iq": "17",
-		"memory": "4",
-		"corequisite": "Dive Block, Racing, Unarmed Combat 1, Speed 19+",
-		"description": "If you have UC4 this talent costs 3 pts. This gives you an extra action each turn after the retreats part of the turn. After everyone has completed their attacks, including second shot missile attacks, and all retreats are finished, you get a mini turn including rolling for initiative if people on both sides have this talent. The maximum movement is two hexes and you may not take any option that this movement plus your first movement would exceed the limit for. Example, if you moved 3 in your first movement phase and 2 in the second then you would have moved the maximum allowed to do a charge attack in your second option phase (assuming a MA 10). This mini turn is at a -6 DX thruout and if you are able you may fire a missile weapon twice in that time. Lastly if you have damaged someone in your mini turn and taken no damage at all thru out your (whole) turn you may retreat someone at the end of it. ",
+		"memory": "2",
+		"corequisite": "Charisma and both Strength and Dexterity 2 higher than average for your race (or at least at racial maximum)",
+		"description": "This gives you a +1 on all reaction rolls in addition to the Charisma bonus.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2161,20 +2206,20 @@
 		"wizard": "double"
 	},
 	{
+		"name": "Quiet Battle Mind",
+		"iq": "17",
+		"memory": "3",
+		"corequisite": "Unarmed Combat 4, Speed 18+, one of Alertness or Acute Hearing",
+		"description": "You get a free attack during your movement phase, (this costs 2 movement points), and if this free attack is taken all attacks later in the turn are at -4 DX. Any options taken later in the turn still have normal movement restrictions. (That is to say, the 2 movement points you spend for the free attack DO count towards the total movement for the turn.)<br /><br />You won't be distracted by battle cries, explosions, or other distractions in battle (you will notice them but it won't affect  your concentration).<br /><br />If you have Combat Reflexes (and a VERY  high speed) you will get 3 options each turn.",
+		"auto": "false",
+		"wizard": "double"
+	},
+	{
 		"name": "Sure Strike",
 		"iq": "17",
 		"memory": "0.5",
 		"corequisite": "Dexterity 15+",
 		"description": "When you make a to hit roll and roll an  auto-miss, roll 1 die.  On a 1 thru 4, the auto-miss does not count (but it may still be a normal miss if your DX is not high enough).  If the to hit roll results in a dropped weapon, there is a 2/3 chance that it is an auto-miss instead.  If the to hit roll results in a broken weapon, there is a 2/3 chance that it is a dropped weapon instead. <br /><br />Fine weapons that have a chance of not breaking because of metal quality, will roll for weapon quality to prevent breakage AFTER this roll (and only if this roll results in a broken weapon).",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
-		"name": "Combat Sense 2",
-		"iq": "18",
-		"memory": "1",
-		"corequisite": "Combat Sense 1",
-		"description": "When you take the defend & aim option, (see New Defending Options) you gain +3 DX per turn of defending (max 2 turns for + 6 DX). You may aim a missile or thrown weapon, or any spell, for 6 turns (for +9 DX).",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2197,47 +2242,29 @@
 		"wizard": "single"
 	},
 	{
-		"name": "Quick Learn",
+		"name": "Psionics 3",
 		"iq": "18",
-		"memory": "2",
-		"corequisite": "None",
-		"description": "You gain an extra study.  You may learn spells and talents in 1/2 the normal amount of time or less. You may forget spells, talents, and studies in six months (instead of a year). <br /><br />(Note, 'skill' means talent or spell in the write up below.) <br /><br />If your IQ is equal to (or no more than 4 higher than) the minimum IQ needed for a skilll, you learn it in 1/2 the regular time.  If your IQ is from 5 higher to twice as high as the minimum needed for the skill you learn it in 1/5 the regular time. If you IQ is from more than double to triple the IQ of the skill you can learn it in 1/10 of the normal time.  If you IQ is more than triple than the skill, then you can learn it in 1/14 of the normal time.",
+		"memory": "3",
+		"corequisite": "Psionics 2",
+		"description": "Gives the Full Touch transfer mode plus other powerful psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
 		"auto": "false",
-		"wizard": "single"
+		"wizard": "null"
 	},
 	{
 		"name": "Si-Jikuk Style of Fighting",
 		"iq": "18",
 		"memory": "4",
-		"corequisite": "Si-Jik Style of Fighting, Dexterity 17+",
+		"corequisite": "Si-Jik Style of Fighting, Dexterity 15+",
 		"description": "Like the Si-Jik Style of Fighting but more so. You are 2 dice harder to hit thru your non-rear hexes when using a weapon that you have 2 levels of talents in. <br /><br />If some one jumps you in HTH you are at +3 DX to try to hit them on your free attack and if you hit, you do an extra point of damage.",
 		"auto": "false",
 		"wizard": "double"
 	},
 	{
-		"name": "Combat Breathing",
+		"name": "Combat Reflexes",
 		"iq": "19",
-		"memory": "1",
-		"corequisite": "None",
-		"description": "This allows you to fight for 4 times as long with out taking Combat Fatigue damage. (In no armor a person has 60 seconds of combat or running with out fatigue. For each point of negative DX adj your armor gives you, lower this 60 second period by 5 seconds. Thus someone that is strong enough that scalemail only gives them a -2 DX would be able to run & fight in scale for 50 seconds before they take a point of fatigue. If that person had Combat Breathing they could last 200 seconds / fatigue pt.) <br /><br />You will regain a point of fatigue in 1/2 the normal time. This advantage does halve fatigue recovery times of people with biofeedback. <br /><br />Note this time spent fighting counts only the intense part of battle when you are actively trading blows. Troops standing in ranks being shot at by an occasional sniper does not count.",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
-		"name": "Personal Magnetism",
-		"iq": "19",
-		"memory": "2",
-		"corequisite": "Charisma and both Strength and Dexterity 2 higher than average for your race (or at least at racial maximum)",
-		"description": "This gives you a +1 on all reaction rolls in addition to the Charisma bonus.",
-		"auto": "false",
-		"wizard": "double"
-	},
-	{
-		"name": "Quiet Battle Mind",
-		"iq": "19",
-		"memory": "3",
-		"corequisite": "None",
-		"description": "You get a free attack during your movement phase (This costs 2 movement points) and if this free attack is taken all attacks later in the turn are at -4 DX. Any options taken later in the turn still have normal movement restrictions. <br /><br />You won't be distracted by battle cries, explosions, or other distractions in battle (you will notice them but it won't affect your concentration). <br /><br />If you have Combat Reflexes (and a VERY high speed) you will get 3 options each turn. ",
+		"memory": "4",
+		"corequisite": "Dive Block, Racing, Snap Rise, Speed 20+",
+		"description": "+.  If you have UC4 this talent costs 3 pts.  This gives you an extra action each turn after the retreats part of the turn. After everyone has completed their attacks, including second shot missile attacks, and all retreats are finished, you get a mini turn including rolling for initiative if people on both sides have this talent.<br /><br />The maximum movement is two hexes and you may not take any option that this movement plus your first movement would exceed the limit for. Example, if you moved 3 in your first movement phase and 2 in the second then you would have moved the maximum allowed to do a charge attack in your second option phase (assuming a MA 10). This mini turn is at a -6 DX thru-out and if you are able you may fire a missile weapon twice in that time.<br /><br />Lastly if you have damaged some one in your mini turn and taken no damage at all thru out your (whole) turn you may retreat someone at the end of it.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2249,15 +2276,6 @@
 		"description": "The most powerful of alchemical creations can now be made. Note that some Alchemists gain all the needed prerequisites and still do not master all of these processes. A few alchemical processes do not require you to know Chemist, you must hire one to help you. Such easier formulas are noted in the write up for them. ",
 		"auto": "false",
 		"wizard": "single"
-	},
-	{
-		"name": "Psionics 3",
-		"iq": "20",
-		"memory": "3",
-		"corequisite": "Psionics 2",
-		"description": "Gives the Full Touch transfer mode plus other powerful psionic disciplines.  See the supplement: Psionics for TFT.   Each level of Psionics is 4 IQ higher than the last.",
-		"auto": "false",
-		"wizard": "null"
 	},
 	{
 		"name": "Thrown Weapons 3",
@@ -2273,13 +2291,13 @@
 		"iq": "20",
 		"memory": "3",
 		"corequisite": "Dexterity 18+",
-		"description": "Cost is 1 point less if you have both Acrobatics and Physicker. You know a fighting style which emphasizes flowing motion and precision strikes at vitals & weak points in armor. <br /><br />All weapons do +2 damage. All thrown, missile, or regular weapon hits that you make within 6 hexes of you, are critical hits on a 9 or less. All critical hits you make at 1 or 2 hex range, have one added to the dice roll for hit location. Critical hit locations of 6 or 7 are bleeders rather than just 7's.",
+		"description": "Cost is 1 point less if you have both Acrobatics and Physicker. You know a fighting style which emphasizes flowing motion and precision strikes at vitals & weak points in armor. <br /><br />All attacks (unarmed, melee, missile, and missile spell) against you, must roll one more die to hit.<br /><br />All weapons do +3 damage. All thrown, missile, or regular weapon hits that you make within 6 hexes of you, are critical hits on a 9 or less. All critical hits you make at 1 or 2 hex range, have one added to the dice roll for hit location. Critical hit locations of 6 or 7 are bleeders rather than just 7's.",
 		"auto": "false",
 		"wizard": "double"
 	},
 	{
 		"name": "Psionics 4",
-		"iq": "24",
+		"iq": "20",
 		"memory": "3",
 		"corequisite": "Psionics 3",
 		"description": "Gives the Mind Bridge transfer mode plus other powerful psionic disciplines. See the supplement: Psionics for TFT. Each level of Psionics is 4 IQ higher than the last.",
@@ -2288,7 +2306,7 @@
 	},
 	{
 		"name": "Psionics 5",
-		"iq": "28",
+		"iq": "22",
 		"memory": "3",
 		"corequisite": "Psionics 4",
 		"description": "Gives the Evil Eye transfer mode plus other powerful psionic disciplines.  See the supplement: Psionics for TFT.",
