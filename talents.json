@@ -1895,7 +1895,7 @@
 		"iq": "14",
 		"memory": "1+",
 		"corequisite": "Piety 6, Holy Ascetic, granted by PC's god",
-		"description": "The maximum number of memory points that may be spent on this talent is equal to your PY. <br /><br />If you are moving quietly or hiding, people must roll 2 extra dice vs IQ to notice you. <br /><br />If you are in Leather or Cloth armor or no armor, you are –2 DX to be hit. <br /><br />Do +2 damage with all unarmed attacks. <br /><br />For each memory point spent on this talent, reduce distances fallen by 2 meters. <br /><br />For each memory point spent on this talent, you gain a holy power which supports the god's attributes. For example a thief god may give his Monks thieving abilities. A god of farming and husbandry may give his monks the ability to talk to animals, etc.",
+		"description": "The maximum number of memory points that may be spent on this talent is equal to your PY. <br /><br />If you are moving quietly or hiding, people must roll 2 extra dice vs IQ to notice you. <br /><br />If you are in Leather or Cloth armor or no armor, you are –2 DX to be hit. <br /><br />Do +2 damage with all unarmed attacks. <br /><br />For each memory point spent on this talent, reduce distances fallen by 4 meters. <br /><br />For each memory point spent on this talent, you gain a holy power which supports the god's attributes. For example a thief god may give his Monks thieving abilities. A god of farming and husbandry may give his monks the ability to talk to animals, etc.",
 		"auto": "false",
 		"wizard": "double"
 	},
@@ -2048,7 +2048,7 @@
 		"iq": "15",
 		"memory": "1+",
 		"corequisite": "None",
-		"description": "In battle of wills, psychic combats, or possession rolls you get +2 IQ for each point spent on this talent.  Humans (& most races) have a limit of 5 levels on this talent. Hobbits and Elves may only take 2 levels of this talent. Orks and other races who's societies are based on dominance and submission, may take 10 levels of this talent.  Demons and other races where Psionics is common may take any number of levels of this talent. <br /><br />Example: if you have spent 3 memory points on this, you get +6 when making these rolls. <br /><br />This is the standard defense for people against mental domination. “Possession rolls” include the Control Person spell and its variants. Note, that most psionic attacks come under the heading of psychic combat.",
+		"description": "In battle of wills, psychic combats, or possession rolls you get +5 IQ for each point spent on this talent.  Humans (& most races) have a limit of 5 levels on this talent. Hobbits and Elves may only take 2 levels of this talent. Orks and other races who's societies are based on dominance and submission, may take 10 levels of this talent.  Demons and other races where Psionics is common may take any number of levels of this talent. <br /><br />Example: if you have spent 3 memory points on this, you get +6 when making these rolls. <br /><br />This is the standard defense for people against mental domination. “Possession rolls” include the Control Person spell and its variants. Note, that most psionic attacks come under the heading of psychic combat.",
 		"auto": "false",
 		"wizard": "single"
 	},
