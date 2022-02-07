@@ -2048,7 +2048,7 @@
 		"iq": "15",
 		"memory": "1+",
 		"corequisite": "None",
-		"description": "In battle of wills, psychic combats, or possession rolls you get +5 IQ for each point spent on this talent.  Humans (& most races) have a limit of 5 levels on this talent. Hobbits and Elves may only take 2 levels of this talent. Orks and other races who's societies are based on dominance and submission, may take 10 levels of this talent.  Demons and other races where Psionics is common may take any number of levels of this talent. <br /><br />Example: if you have spent 3 memory points on this, you get +6 when making these rolls. <br /><br />This is the standard defense for people against mental domination. “Possession rolls” include the Control Person spell and its variants. Note, that most psionic attacks come under the heading of psychic combat.",
+		"description": "In battle of wills, psychic combats, or possession rolls you get +5 IQ for each point spent on this talent.  Humans (& most races) have a limit of 5 levels on this talent. Hobbits and Elves may only take 2 levels of this talent. Orks and other races who's societies are based on dominance and submission, may take 10 levels of this talent.  Demons and other races where Psionics is common may take any number of levels of this talent. <br /><br />Example: if you have spent 3 memory points on this, you get +15 when making these rolls. <br /><br />This is the standard defense for people against mental domination. “Possession rolls” include the Control Person spell and its variants. Note, that most psionic attacks come under the heading of psychic combat.",
 		"auto": "false",
 		"wizard": "single"
 	},
